@@ -5,24 +5,41 @@ import os
 # --- Astrology events Sept–Dec 2025 (collective + personal) ---
 astrology_events = [
     # Collective
-    ("2025-09-21", "🌑 New Moon in Virgo", "Practical resets, health/service themes."),
-    ("2025-09-29", "🌕 Lunar Eclipse in Aries", "Heightened energy, confrontations, release cycles."),
-    ("2025-10-02", "☉ Solar Eclipse in Libra", "Partnerships, balance, and justice themes intensified."),
-    ("2025-10-06", "♂ Mars enters Scorpio", "Drive, focus, intensity sharpen."),
-    ("2025-10-29", "🌑 New Moon in Scorpio", "Deep renewal, power themes."),
-    ("2025-11-04", "♃ Jupiter stations retrograde in Gemini", "Review of growth, learning, and networks."),
-    ("2025-11-17", "🌕 Full Moon in Taurus", "Stability vs. change."),
-    ("2025-11-25", "♆ Neptune stations direct in Pisces", "Fog lifts, dreams reorient."),
-    ("2025-12-01", "☿ Mercury retrograde in Capricorn begins", "Review of career, structure, goals."),
-    ("2025-12-07", "🌕 Full Moon in Gemini", "Information overflow, clarity vs. gossip."),
-    ("2025-12-24", "♄ Saturn sextile Uranus", "Innovation and structure harmonize."),
-    ("2025-12-29", "☿ Mercury retrograde ends", "Clarity in career matters returns."),
+    ("2025-09-21", "🌑 New Moon — Virgo",
+     "Collective: Practical resets, health/service themes.\nPersonal: Supports routines and body alignment.\nKeywords: purification, grounding, new cycles."),
     
-    # Personalized (based on your chart)
-    ("2025-09-17", "🌕 Lunar Eclipse in Aries hits Libra Moon", "Themes of relationship, belonging, collective awareness."),
-    ("2025-10-02", "☉ Solar Eclipse in Libra activates 11th house", "Friendships, networks, collective involvement activated."),
-    ("2025-11-04", "♃ Jupiter retrograde opposes Ascendant", "Partnerships and growth themes tested."),
-    ("2025-12-07", "🌕 Full Moon in Gemini lights up 7th house", "Relationships and partnerships emphasized."),
+    ("2025-09-29", "🌕 Full Moon Eclipse — Aries",
+     "Collective: Heightened energy, confrontations, release cycles.\nPersonal: Lights up self vs. other dynamics in relationships.\nKeywords: courage, independence, closure."),
+    
+    ("2025-10-02", "☉ Solar Eclipse — Libra",
+     "Collective: Partnerships, balance, justice themes intensified.\nPersonal: Activates your 11th house (friends, networks, collective involvement).\nKeywords: renewal, social shifts, relationship clarity."),
+    
+    ("2025-10-06", "♂ Mars → Scorpio",
+     "Collective: Drive, focus, and intensity sharpen.\nPersonal: Stirs unconscious material, inner drive (12th house themes).\nKeywords: determination, shadow work, persistence."),
+    
+    ("2025-10-29", "🌑 New Moon — Scorpio",
+     "Collective: Deep renewal, power themes.\nPersonal: Resonates with inner psychological growth and healing.\nKeywords: transformation, depth, regeneration."),
+    
+    ("2025-11-04", "♃ Retrograde Station — Gemini",
+     "Collective: Review of growth, learning, and networks.\nPersonal: Opposes your Ascendant — testing partnerships and identity balance.\nKeywords: reevaluation, duality, perspective shift."),
+    
+    ("2025-11-17", "🌕 Full Moon — Taurus",
+     "Collective: Stability vs. change tensions.\nPersonal: Activates your values and resource axis.\nKeywords: grounding, release, security."),
+    
+    ("2025-11-25", "♆ Neptune Direct — Pisces",
+     "Collective: Fog lifts slowly, dreams reorient.\nPersonal: Subtle influence on family/roots sector.\nKeywords: intuition, clarity, spiritual flow."),
+    
+    ("2025-12-01", "☿ Retrograde Begins — Capricorn",
+     "Collective: Career, structure, goals under review.\nPersonal: Revisiting 2nd house matters (finances, possessions, values).\nKeywords: delays, reflection, restructuring."),
+    
+    ("2025-12-07", "🌕 Full Moon — Gemini",
+     "Collective: Information overflow, clarity vs. gossip.\nPersonal: Lights up your 7th house (partnerships).\nKeywords: communication, relationship focus, decision-making."),
+    
+    ("2025-12-24", "♄ ✧ Uranus Sextile",
+     "Collective: Innovation and structure harmonize.\nPersonal: Supports your Moon trine Saturn pattern (stability in friendships and networks).\nKeywords: balance, opportunity, growth."),
+    
+    ("2025-12-29", "☿ Retrograde Ends — Capricorn",
+     "Collective: Clarity in career and structure returns.\nPersonal: Forward movement in finances and values sector.\nKeywords: resolution, progress, regained clarity."),
 ]
 
 # --- Build ICS ---
@@ -62,3 +79,5 @@ with open(ics_filename, "w") as f:
     f.write("\n".join(ics_lines))
 
 print(f"✅ Wrote {ics_filename}")
+
+

@@ -112,8 +112,12 @@ while current <= end_date:
 
 ics_lines.append("END:VCALENDAR")
 
-# Write file
-ics_filename = "ng_risk_calendar_FIXED_SepDec2025.ics.txt"
+# Write file directly into calendar folder
+ics_filename = "calendar/ng_risk_calendar.ics"
+
+import os
+os.makedirs("calendar", exist_ok=True)
+
 with open(ics_filename, "w") as f:
     f.write("\n".join(ics_lines))
 

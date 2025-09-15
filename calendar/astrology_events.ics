@@ -4,147 +4,135 @@ PRODID:-//Astrology Calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-DTSTAMP:20250915T211920Z
-UID:42103e27-8cf5-45b7-b364-96765afad0a9@astrology
+DTSTAMP:20250915T230220Z
+UID:140b40ce-ce97-41b1-9f63-06ae4d27fa4f@astrology
 DTSTART;VALUE=DATE:20250921
 DTEND;VALUE=DATE:20250922
-SUMMARY:🌑 New Moon in Virgo
-DESCRIPTION:Practical resets, health/service themes.
+SUMMARY:🌑 New Moon — Virgo
+DESCRIPTION:Collective: Practical resets, health/service themes.
+Personal: Supports routines and body alignment.
+Keywords: purification, grounding, new cycles.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T211920Z
-UID:ad9fcacc-f974-430a-8916-486cf27827bc@astrology
+DTSTAMP:20250915T230220Z
+UID:edc8c038-b3ef-41bf-a6cb-b7f48bb0fd98@astrology
 DTSTART;VALUE=DATE:20250929
 DTEND;VALUE=DATE:20250930
-SUMMARY:🌕 Lunar Eclipse in Aries
-DESCRIPTION:Heightened energy, confrontations, release cycles.
+SUMMARY:🌕 Full Moon Eclipse — Aries
+DESCRIPTION:Collective: Heightened energy, confrontations, release cycles.
+Personal: Lights up self vs. other dynamics in relationships.
+Keywords: courage, independence, closure.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T211920Z
-UID:cba6fb64-243f-43fe-9471-43e9b36e8652@astrology
+DTSTAMP:20250915T230220Z
+UID:b8442ffc-dda7-4472-8d08-d387cdb0b5f0@astrology
 DTSTART;VALUE=DATE:20251002
 DTEND;VALUE=DATE:20251003
-SUMMARY:☉ Solar Eclipse in Libra
-DESCRIPTION:Partnerships, balance, and justice themes intensified.
+SUMMARY:☉ Solar Eclipse — Libra
+DESCRIPTION:Collective: Partnerships, balance, justice themes intensified.
+Personal: Activates your 11th house (friends, networks, collective involvement).
+Keywords: renewal, social shifts, relationship clarity.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T211920Z
-UID:755e7033-01f1-48ce-a2de-b5622915157e@astrology
+DTSTAMP:20250915T230220Z
+UID:2eea3387-50ab-428e-9b9e-5911c7b029d2@astrology
 DTSTART;VALUE=DATE:20251006
 DTEND;VALUE=DATE:20251007
-SUMMARY:♂ Mars enters Scorpio
-DESCRIPTION:Drive, focus, intensity sharpen.
+SUMMARY:♂ Mars → Scorpio
+DESCRIPTION:Collective: Drive, focus, and intensity sharpen.
+Personal: Stirs unconscious material, inner drive (12th house themes).
+Keywords: determination, shadow work, persistence.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T211920Z
-UID:b6f7b58c-573f-4e2a-8351-ee1466f16f57@astrology
+DTSTAMP:20250915T230220Z
+UID:259e0bda-4e62-481f-b768-31b3c4cf4892@astrology
 DTSTART;VALUE=DATE:20251029
 DTEND;VALUE=DATE:20251030
-SUMMARY:🌑 New Moon in Scorpio
-DESCRIPTION:Deep renewal, power themes.
+SUMMARY:🌑 New Moon — Scorpio
+DESCRIPTION:Collective: Deep renewal, power themes.
+Personal: Resonates with inner psychological growth and healing.
+Keywords: transformation, depth, regeneration.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T211920Z
-UID:2242054c-4d2d-478d-90b6-fa42397e1b9c@astrology
+DTSTAMP:20250915T230220Z
+UID:5e5c6275-9f02-4564-a5ec-8603ca548856@astrology
 DTSTART;VALUE=DATE:20251104
 DTEND;VALUE=DATE:20251105
-SUMMARY:♃ Jupiter stations retrograde in Gemini
-DESCRIPTION:Review of growth, learning, and networks.
+SUMMARY:♃ Retrograde Station — Gemini
+DESCRIPTION:Collective: Review of growth, learning, and networks.
+Personal: Opposes your Ascendant — testing partnerships and identity balance.
+Keywords: reevaluation, duality, perspective shift.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T211920Z
-UID:141428c2-3e13-436e-8e06-abfeaffe1896@astrology
+DTSTAMP:20250915T230220Z
+UID:c045819c-dabf-42be-a75d-d87d5c6c28f0@astrology
 DTSTART;VALUE=DATE:20251117
 DTEND;VALUE=DATE:20251118
-SUMMARY:🌕 Full Moon in Taurus
-DESCRIPTION:Stability vs. change.
+SUMMARY:🌕 Full Moon — Taurus
+DESCRIPTION:Collective: Stability vs. change tensions.
+Personal: Activates your values and resource axis.
+Keywords: grounding, release, security.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T211920Z
-UID:3f61ae5f-e50e-412b-a792-8e15ac84957c@astrology
+DTSTAMP:20250915T230220Z
+UID:8c707f5d-4298-4d3a-9166-03bafe992bc0@astrology
 DTSTART;VALUE=DATE:20251125
 DTEND;VALUE=DATE:20251126
-SUMMARY:♆ Neptune stations direct in Pisces
-DESCRIPTION:Fog lifts, dreams reorient.
+SUMMARY:♆ Neptune Direct — Pisces
+DESCRIPTION:Collective: Fog lifts slowly, dreams reorient.
+Personal: Subtle influence on family/roots sector.
+Keywords: intuition, clarity, spiritual flow.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T211920Z
-UID:2cdaa993-d71d-4266-9081-c71c989a42a6@astrology
+DTSTAMP:20250915T230220Z
+UID:58814779-b944-4725-9517-fab1b2eab0e3@astrology
 DTSTART;VALUE=DATE:20251201
 DTEND;VALUE=DATE:20251202
-SUMMARY:☿ Mercury retrograde in Capricorn begins
-DESCRIPTION:Review of career, structure, goals.
+SUMMARY:☿ Retrograde Begins — Capricorn
+DESCRIPTION:Collective: Career, structure, goals under review.
+Personal: Revisiting 2nd house matters (finances, possessions, values).
+Keywords: delays, reflection, restructuring.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T211920Z
-UID:b7a4a804-91be-4f87-a25f-78e026a4b1e7@astrology
+DTSTAMP:20250915T230220Z
+UID:ab0425cf-4b00-4e36-80a3-5f80fbd90213@astrology
 DTSTART;VALUE=DATE:20251207
 DTEND;VALUE=DATE:20251208
-SUMMARY:🌕 Full Moon in Gemini
-DESCRIPTION:Information overflow, clarity vs. gossip.
+SUMMARY:🌕 Full Moon — Gemini
+DESCRIPTION:Collective: Information overflow, clarity vs. gossip.
+Personal: Lights up your 7th house (partnerships).
+Keywords: communication, relationship focus, decision-making.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T211920Z
-UID:d585fc86-fe77-479b-8b10-6d0c505c8ee3@astrology
+DTSTAMP:20250915T230220Z
+UID:2b63592a-da51-48d6-9f16-9a2900fecf9b@astrology
 DTSTART;VALUE=DATE:20251224
 DTEND;VALUE=DATE:20251225
-SUMMARY:♄ Saturn sextile Uranus
-DESCRIPTION:Innovation and structure harmonize.
+SUMMARY:♄ ✧ Uranus Sextile
+DESCRIPTION:Collective: Innovation and structure harmonize.
+Personal: Supports your Moon trine Saturn pattern (stability in friendships and networks).
+Keywords: balance, opportunity, growth.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T211920Z
-UID:e342926f-adb3-400e-971c-4075563a4f58@astrology
+DTSTAMP:20250915T230220Z
+UID:5620b97c-233b-4082-8111-483b3b7cb89a@astrology
 DTSTART;VALUE=DATE:20251229
 DTEND;VALUE=DATE:20251230
-SUMMARY:☿ Mercury retrograde ends
-DESCRIPTION:Clarity in career matters returns.
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20250915T211920Z
-UID:5208ce73-3a8f-438b-bf11-6f2ac31ef980@astrology
-DTSTART;VALUE=DATE:20250917
-DTEND;VALUE=DATE:20250918
-SUMMARY:🌕 Lunar Eclipse in Aries hits Libra Moon
-DESCRIPTION:Themes of relationship, belonging, collective awareness.
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20250915T211920Z
-UID:6f465ccb-d15e-4ac7-931d-6eed915cd83d@astrology
-DTSTART;VALUE=DATE:20251002
-DTEND;VALUE=DATE:20251003
-SUMMARY:☉ Solar Eclipse in Libra activates 11th house
-DESCRIPTION:Friendships, networks, collective involvement activated.
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20250915T211920Z
-UID:af1e438e-933b-4092-9c84-137910b2dd12@astrology
-DTSTART;VALUE=DATE:20251104
-DTEND;VALUE=DATE:20251105
-SUMMARY:♃ Jupiter retrograde opposes Ascendant
-DESCRIPTION:Partnerships and growth themes tested.
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20250915T211920Z
-UID:eb451d06-0f9c-48b2-b0b6-4f069a6315d4@astrology
-DTSTART;VALUE=DATE:20251207
-DTEND;VALUE=DATE:20251208
-SUMMARY:🌕 Full Moon in Gemini lights up 7th house
-DESCRIPTION:Relationships and partnerships emphasized.
+SUMMARY:☿ Retrograde Ends — Capricorn
+DESCRIPTION:Collective: Clarity in career and structure returns.
+Personal: Forward movement in finances and values sector.
+Keywords: resolution, progress, regained clarity.
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

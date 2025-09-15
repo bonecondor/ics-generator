@@ -1,9 +1,10 @@
 name: Build ICS
 
 on:
-  workflow_dispatch:   # lets you run it manually
-  push:                # also runs whenever you push new code
-
+  workflow_dispatch:   # still lets you run it manually
+  push:                # runs whenever you edit code
+  schedule:
+    - cron: '0 12 * * 1'   # runs every Monday at 12:00 UTC
 jobs:
   build:
     runs-on: ubuntu-latest

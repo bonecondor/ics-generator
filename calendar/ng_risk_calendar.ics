@@ -1,0 +1,402 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NG Risk Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:fbd8d777-127a-460e-b928-a2ea3ca19cf3@ng-risk
+DTSTART;VALUE=DATE:20250914
+DTEND;VALUE=DATE:20250915
+SUMMARY:⚠️ Risk Level: 3
+DESCRIPTION:Risk Score → 3 (⚠️ Moderate risk)\nGeomagnetic Activity → No\nPeriod Forecasted → No\nMoon Phase → Near Full/New\nShot Cycle → DSS=2\nLikely Symptoms → energy volatility, fatigue, irritability, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:f1cf1770-bd26-48d4-9a92-6b6745566ffc@ng-risk
+DTSTART;VALUE=DATE:20250915
+DTEND;VALUE=DATE:20250916
+SUMMARY:⚠️ Risk Level: 3
+DESCRIPTION:Risk Score → 3 (⚠️ Moderate risk)\nGeomagnetic Activity → G1 storm\nPeriod Forecasted → No\nMoon Phase → Near Full/New\nShot Cycle → none\nLikely Symptoms → anxious, energy volatility, low mana, sleep disruption, stressed
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:e23158c7-8db1-4ad0-8944-27e9a6426dea@ng-risk
+DTSTART;VALUE=DATE:20250916
+DTEND;VALUE=DATE:20250917
+SUMMARY:🔥 Risk Level: 4
+DESCRIPTION:Risk Score → 5 (🔥 High risk (stacked))\nGeomagnetic Activity → G1 storm\nPeriod Forecasted → Yes\nMoon Phase → Near Full/New\nShot Cycle → none\nLikely Symptoms → anxious, cramps, emotional sensitivity, energy volatility, low mana, sleep disruption, stressed
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:15ec52b2-de63-4b19-a6c2-ef54c16fb0fc@ng-risk
+DTSTART;VALUE=DATE:20250917
+DTEND;VALUE=DATE:20250918
+SUMMARY:⚠️ Risk Level: 3
+DESCRIPTION:Risk Score → 4 (⚠️ Moderate risk)\nGeomagnetic Activity → Active/Unsettled\nPeriod Forecasted → Yes\nMoon Phase → Near Full/New\nShot Cycle → none\nLikely Symptoms → anxious, cramps, emotional sensitivity, energy volatility, low mana, restless
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:a26f1d1b-6144-4c20-95a1-09604298acc1@ng-risk
+DTSTART;VALUE=DATE:20250918
+DTEND;VALUE=DATE:20250919
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 2 (➖ Mild risk)\nGeomagnetic Activity → Active/Unsettled\nPeriod Forecasted → No\nMoon Phase → Near Full/New\nShot Cycle → none\nLikely Symptoms → anxious, energy volatility, low mana, restless
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:fba93925-e35d-4ef6-b38c-95af7b3c90ee@ng-risk
+DTSTART;VALUE=DATE:20250919
+DTEND;VALUE=DATE:20250920
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 1 (➖ Mild risk)\nGeomagnetic Activity → No\nPeriod Forecasted → No\nMoon Phase → Near Full/New\nShot Cycle → none\nLikely Symptoms → energy volatility, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:06eed2f0-3edc-41d5-aa1f-62ac3fcb1113@ng-risk
+DTSTART;VALUE=DATE:20250920
+DTEND;VALUE=DATE:20250921
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 1 (➖ Mild risk)\nGeomagnetic Activity → No\nPeriod Forecasted → No\nMoon Phase → Near Full/New\nShot Cycle → none\nLikely Symptoms → energy volatility, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:ee156637-1283-40fa-b60f-8f85e7b69102@ng-risk
+DTSTART;VALUE=DATE:20250921
+DTEND;VALUE=DATE:20250922
+SUMMARY:⚠️ Risk Level: 3
+DESCRIPTION:Risk Score → 3 (⚠️ Moderate risk)\nGeomagnetic Activity → No\nPeriod Forecasted → No\nMoon Phase → Near Full/New\nShot Cycle → DSS=2\nLikely Symptoms → energy volatility, fatigue, irritability, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:6f9b689b-e1ae-4f79-8f06-7262c56f14cd@ng-risk
+DTSTART;VALUE=DATE:20250922
+DTEND;VALUE=DATE:20250923
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 1 (➖ Mild risk)\nGeomagnetic Activity → No\nPeriod Forecasted → No\nMoon Phase → Near Full/New\nShot Cycle → none\nLikely Symptoms → energy volatility, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:260736ee-11d3-41ee-8ea1-1b67c8f395fa@ng-risk
+DTSTART;VALUE=DATE:20250923
+DTEND;VALUE=DATE:20250924
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 1 (➖ Mild risk)\nGeomagnetic Activity → No\nPeriod Forecasted → No\nMoon Phase → Near Full/New\nShot Cycle → none\nLikely Symptoms → energy volatility, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:806e9e2a-6781-4260-854c-57f1d2e1ea0a@ng-risk
+DTSTART;VALUE=DATE:20250924
+DTEND;VALUE=DATE:20250925
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 1 (➖ Mild risk)\nGeomagnetic Activity → No\nPeriod Forecasted → No\nMoon Phase → Near Full/New\nShot Cycle → none\nLikely Symptoms → energy volatility, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:8ae10262-f11c-4103-a49d-73270d223575@ng-risk
+DTSTART;VALUE=DATE:20250928
+DTEND;VALUE=DATE:20250929
+SUMMARY:⚠️ Risk Level: 3
+DESCRIPTION:Risk Score → 3 (⚠️ Moderate risk)\nGeomagnetic Activity → Active/Unsettled\nPeriod Forecasted → No\nMoon Phase → Neutral\nShot Cycle → DSS=2\nLikely Symptoms → anxious, fatigue, irritability, low mana, restless
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:716bc48f-afa5-41e6-9a95-b7e4fb6cae71@ng-risk
+DTSTART;VALUE=DATE:20250929
+DTEND;VALUE=DATE:20250930
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 1 (➖ Mild risk)\nGeomagnetic Activity → Active/Unsettled\nPeriod Forecasted → No\nMoon Phase → Neutral\nShot Cycle → none\nLikely Symptoms → anxious, low mana, restless
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:28e55dd4-4b0f-49c7-962b-be189786381c@ng-risk
+DTSTART;VALUE=DATE:20251003
+DTEND;VALUE=DATE:20251004
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 2 (➖ Mild risk)\nGeomagnetic Activity → Active/Unsettled\nPeriod Forecasted → No\nMoon Phase → Near Full/New\nShot Cycle → none\nLikely Symptoms → anxious, energy volatility, low mana, restless
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:c2ba610b-c131-4c7e-ab84-8d3c9217813c@ng-risk
+DTSTART;VALUE=DATE:20251004
+DTEND;VALUE=DATE:20251005
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 2 (➖ Mild risk)\nGeomagnetic Activity → Active/Unsettled\nPeriod Forecasted → No\nMoon Phase → Near Full/New\nShot Cycle → none\nLikely Symptoms → anxious, energy volatility, low mana, restless
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:17e85c91-bd92-4eae-933e-61849e72ed79@ng-risk
+DTSTART;VALUE=DATE:20251005
+DTEND;VALUE=DATE:20251006
+SUMMARY:⚠️ Risk Level: 3
+DESCRIPTION:Risk Score → 3 (⚠️ Moderate risk)\nGeomagnetic Activity → No\nPeriod Forecasted → No\nMoon Phase → Near Full/New\nShot Cycle → DSS=2\nLikely Symptoms → energy volatility, fatigue, irritability, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:303b6970-5181-4f87-bf78-75eda7242574@ng-risk
+DTSTART;VALUE=DATE:20251006
+DTEND;VALUE=DATE:20251007
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 1 (➖ Mild risk)\nGeomagnetic Activity → No\nPeriod Forecasted → No\nMoon Phase → Near Full/New\nShot Cycle → none\nLikely Symptoms → energy volatility, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:df7337f1-761f-41ec-9d56-9b8966f3b0aa@ng-risk
+DTSTART;VALUE=DATE:20251007
+DTEND;VALUE=DATE:20251008
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 1 (➖ Mild risk)\nGeomagnetic Activity → No\nPeriod Forecasted → No\nMoon Phase → Near Full/New\nShot Cycle → none\nLikely Symptoms → energy volatility, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:86f46a9d-fc96-44fc-988a-392b530cb91a@ng-risk
+DTSTART;VALUE=DATE:20251008
+DTEND;VALUE=DATE:20251009
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 1 (➖ Mild risk)\nGeomagnetic Activity → No\nPeriod Forecasted → No\nMoon Phase → Near Full/New\nShot Cycle → none\nLikely Symptoms → energy volatility, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:4ce80114-c563-4627-b9f1-9b456a99d656@ng-risk
+DTSTART;VALUE=DATE:20251009
+DTEND;VALUE=DATE:20251010
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 1 (➖ Mild risk)\nGeomagnetic Activity → No\nPeriod Forecasted → No\nMoon Phase → Near Full/New\nShot Cycle → none\nLikely Symptoms → energy volatility, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:acae70b4-7944-495d-9c9f-73b460ed51ed@ng-risk
+DTSTART;VALUE=DATE:20251012
+DTEND;VALUE=DATE:20251013
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 2 (➖ Mild risk)\nGeomagnetic Activity → No\nPeriod Forecasted → No\nMoon Phase → Neutral\nShot Cycle → DSS=2\nLikely Symptoms → fatigue, irritability, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:8e218374-b0cd-4298-85b2-37f824f0b459@ng-risk
+DTSTART;VALUE=DATE:20251015
+DTEND;VALUE=DATE:20251016
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 2 (➖ Mild risk)\nGeomagnetic Activity → No\nPeriod Forecasted → Yes\nMoon Phase → Neutral\nShot Cycle → none\nLikely Symptoms → cramps, emotional sensitivity, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:027cd668-ef20-4804-bc71-a3d5dcf5b669@ng-risk
+DTSTART;VALUE=DATE:20251016
+DTEND;VALUE=DATE:20251017
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 2 (➖ Mild risk)\nGeomagnetic Activity → No\nPeriod Forecasted → Yes\nMoon Phase → Neutral\nShot Cycle → none\nLikely Symptoms → cramps, emotional sensitivity, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:94a52f4f-cdb2-41c4-b4d6-65cf34e1036d@ng-risk
+DTSTART;VALUE=DATE:20251019
+DTEND;VALUE=DATE:20251020
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 2 (➖ Mild risk)\nGeomagnetic Activity → No\nPeriod Forecasted → No\nMoon Phase → Neutral\nShot Cycle → DSS=2\nLikely Symptoms → fatigue, irritability, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:a3bcc6a8-6dde-4fc0-8233-724ea37a37c8@ng-risk
+DTSTART;VALUE=DATE:20251026
+DTEND;VALUE=DATE:20251027
+SUMMARY:⚠️ Risk Level: 3
+DESCRIPTION:Risk Score → 3 (⚠️ Moderate risk)\nGeomagnetic Activity → No\nPeriod Forecasted → No\nMoon Phase → Near Full/New\nShot Cycle → DSS=2\nLikely Symptoms → energy volatility, fatigue, irritability, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:4239da53-b26a-4023-80df-3f750b66e3f7@ng-risk
+DTSTART;VALUE=DATE:20251027
+DTEND;VALUE=DATE:20251028
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 1 (➖ Mild risk)\nGeomagnetic Activity → No\nPeriod Forecasted → No\nMoon Phase → Near Full/New\nShot Cycle → none\nLikely Symptoms → energy volatility, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:0974b20a-31e7-463c-a949-49a1f66efb72@ng-risk
+DTSTART;VALUE=DATE:20251028
+DTEND;VALUE=DATE:20251029
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 1 (➖ Mild risk)\nGeomagnetic Activity → No\nPeriod Forecasted → No\nMoon Phase → Near Full/New\nShot Cycle → none\nLikely Symptoms → energy volatility, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:69b070e1-bf64-4882-9811-0f4d15599d73@ng-risk
+DTSTART;VALUE=DATE:20251029
+DTEND;VALUE=DATE:20251030
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 1 (➖ Mild risk)\nGeomagnetic Activity → No\nPeriod Forecasted → No\nMoon Phase → Near Full/New\nShot Cycle → none\nLikely Symptoms → energy volatility, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:12e783d6-d53d-400e-b964-0388e0fc604f@ng-risk
+DTSTART;VALUE=DATE:20251030
+DTEND;VALUE=DATE:20251031
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 1 (➖ Mild risk)\nGeomagnetic Activity → No\nPeriod Forecasted → No\nMoon Phase → Near Full/New\nShot Cycle → none\nLikely Symptoms → energy volatility, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:82f2c677-f91e-4239-bb82-20ca2baf5d7c@ng-risk
+DTSTART;VALUE=DATE:20251031
+DTEND;VALUE=DATE:20251101
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 1 (➖ Mild risk)\nGeomagnetic Activity → No\nPeriod Forecasted → No\nMoon Phase → Near Full/New\nShot Cycle → none\nLikely Symptoms → energy volatility, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:ca75d6e9-a595-44b2-8ae6-3e82ce31cdfe@ng-risk
+DTSTART;VALUE=DATE:20251101
+DTEND;VALUE=DATE:20251102
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 1 (➖ Mild risk)\nGeomagnetic Activity → No\nPeriod Forecasted → No\nMoon Phase → Near Full/New\nShot Cycle → none\nLikely Symptoms → energy volatility, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:d1225152-8cfb-4040-9913-8fd468eb9ef6@ng-risk
+DTSTART;VALUE=DATE:20251102
+DTEND;VALUE=DATE:20251103
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 2 (➖ Mild risk)\nGeomagnetic Activity → No\nPeriod Forecasted → No\nMoon Phase → Neutral\nShot Cycle → DSS=2\nLikely Symptoms → fatigue, irritability, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:342201b3-61ae-41b2-85b4-ab58c7147b7f@ng-risk
+DTSTART;VALUE=DATE:20251109
+DTEND;VALUE=DATE:20251110
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 2 (➖ Mild risk)\nGeomagnetic Activity → No\nPeriod Forecasted → No\nMoon Phase → Neutral\nShot Cycle → DSS=2\nLikely Symptoms → fatigue, irritability, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:30147e37-9edb-4fe2-bda0-ab69eb98a6aa@ng-risk
+DTSTART;VALUE=DATE:20251112
+DTEND;VALUE=DATE:20251113
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 2 (➖ Mild risk)\nGeomagnetic Activity → No\nPeriod Forecasted → Yes\nMoon Phase → Neutral\nShot Cycle → none\nLikely Symptoms → cramps, emotional sensitivity, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:f9acb3b2-8aca-49bd-8988-af4cac712f28@ng-risk
+DTSTART;VALUE=DATE:20251113
+DTEND;VALUE=DATE:20251114
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 2 (➖ Mild risk)\nGeomagnetic Activity → No\nPeriod Forecasted → Yes\nMoon Phase → Neutral\nShot Cycle → none\nLikely Symptoms → cramps, emotional sensitivity, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:19743036-5d49-45fe-bbe9-8485166b58a1@ng-risk
+DTSTART;VALUE=DATE:20251116
+DTEND;VALUE=DATE:20251117
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 2 (➖ Mild risk)\nGeomagnetic Activity → No\nPeriod Forecasted → No\nMoon Phase → Neutral\nShot Cycle → DSS=2\nLikely Symptoms → fatigue, irritability, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:5b505b4f-217f-4e68-a0f2-b45c9e84954e@ng-risk
+DTSTART;VALUE=DATE:20251123
+DTEND;VALUE=DATE:20251124
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 2 (➖ Mild risk)\nGeomagnetic Activity → No\nPeriod Forecasted → No\nMoon Phase → Neutral\nShot Cycle → DSS=2\nLikely Symptoms → fatigue, irritability, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:8044bda5-6af7-4351-9de1-de80813ec7e8@ng-risk
+DTSTART;VALUE=DATE:20251130
+DTEND;VALUE=DATE:20251201
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 2 (➖ Mild risk)\nGeomagnetic Activity → No\nPeriod Forecasted → No\nMoon Phase → Neutral\nShot Cycle → DSS=2\nLikely Symptoms → fatigue, irritability, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:ddc863a2-8db2-4c16-aeaa-cb6787c13c14@ng-risk
+DTSTART;VALUE=DATE:20251207
+DTEND;VALUE=DATE:20251208
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 2 (➖ Mild risk)\nGeomagnetic Activity → No\nPeriod Forecasted → No\nMoon Phase → Neutral\nShot Cycle → DSS=2\nLikely Symptoms → fatigue, irritability, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:2ea6eaa3-8690-4677-afe3-6351742f180a@ng-risk
+DTSTART;VALUE=DATE:20251211
+DTEND;VALUE=DATE:20251212
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 2 (➖ Mild risk)\nGeomagnetic Activity → No\nPeriod Forecasted → Yes\nMoon Phase → Neutral\nShot Cycle → none\nLikely Symptoms → cramps, emotional sensitivity, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:0a175283-50e0-4cca-9258-531a12bdf30d@ng-risk
+DTSTART;VALUE=DATE:20251212
+DTEND;VALUE=DATE:20251213
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 2 (➖ Mild risk)\nGeomagnetic Activity → No\nPeriod Forecasted → Yes\nMoon Phase → Neutral\nShot Cycle → none\nLikely Symptoms → cramps, emotional sensitivity, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:49320930-627d-4d6e-96a6-0c6a0942c0e9@ng-risk
+DTSTART;VALUE=DATE:20251214
+DTEND;VALUE=DATE:20251215
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 2 (➖ Mild risk)\nGeomagnetic Activity → No\nPeriod Forecasted → No\nMoon Phase → Neutral\nShot Cycle → DSS=2\nLikely Symptoms → fatigue, irritability, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:2ba3f385-89e9-47de-8562-3bbb204da06a@ng-risk
+DTSTART;VALUE=DATE:20251221
+DTEND;VALUE=DATE:20251222
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 2 (➖ Mild risk)\nGeomagnetic Activity → No\nPeriod Forecasted → No\nMoon Phase → Neutral\nShot Cycle → DSS=2\nLikely Symptoms → fatigue, irritability, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T204117Z
+UID:db591994-ae98-4345-b119-0da2446cd2d3@ng-risk
+DTSTART;VALUE=DATE:20251228
+DTEND;VALUE=DATE:20251229
+SUMMARY:➖ Risk Level: 2
+DESCRIPTION:Risk Score → 2 (➖ Mild risk)\nGeomagnetic Activity → No\nPeriod Forecasted → No\nMoon Phase → Neutral\nShot Cycle → DSS=2\nLikely Symptoms → fatigue, irritability, low mana
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

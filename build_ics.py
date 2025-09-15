@@ -1,13 +1,37 @@
 from datetime import datetime, timedelta
 import uuid
+import os
+import requests
 
-# Configurations
+# --- NOAA SPACE WEATHER FORECAST ---
+def get_space_weather_forecast():
+    """
+    Fetch Kp index data from NOAA and return a dict {date: max_kp_value}.
+    """
+    url = "https://services.swpc.noaa.gov/json/planetary_k_index_1m.json"
+    try:
+        data = requests.get(url, timeout=10).json()
+        forecast = {}
+        for entry in data:
+            ts = datetime.fromisoformat(entry["time_tag"].replace("Z", "+00:00"))
+            kp = entry.get("kp_index", 0)
+            day = ts.date()
+            forecast[day] = max(forecast.get(day, 0), kp)  # record max kp per day
+        return forecast
+    except Exception as e:
+        print("⚠️ Could not fetch NOAA data:", e)
+        return {}
+
+# Fetch space weather once at the start
+space_weather = get_space_weather_forecast()
+
+# --- CONFIG: Rolling 12-week window ---
 start_date = datetime.utcnow()
 end_date = start_date + timedelta(weeks=12)
 
 def get_risk(date):
     # Shot cycle: assume Friday shots, DSS=2 on Sundays
-    dss = (date.weekday() - 4) % 7  # 0 = Friday shot
+    dss = (date.weekday() - 4) % 7
     is_dss2 = (dss == 2)
 
     # Period windows: Aug 19 start, alternating 28/29 days
@@ -17,10 +41,9 @@ def get_risk(date):
         nxt = period_starts[-1] + timedelta(days=toggle)
         period_starts.append(nxt)
         toggle = 29 if toggle == 28 else 28
-
     period_days = set()
     for ps in period_starts:
-        for off in (0, 1):  # 2-day period window
+        for off in (0, 1):
             period_days.add((ps + timedelta(days=off)).date())
     is_period = date.date() in period_days
 
@@ -29,15 +52,10 @@ def get_risk(date):
     new_moons = [datetime(2025, 9, 21), datetime(2025, 10, 29)]
     is_moon = any(abs((date - m).days) <= 3 for m in full_moons + new_moons)
 
-    # Storm forecasts
-    g1_storms = [datetime(2025, 9, 15), datetime(2025, 9, 16)]
-    active_storms = [
-        datetime(2025, 9, 17), datetime(2025, 9, 18),
-        datetime(2025, 9, 28), datetime(2025, 9, 29),
-        datetime(2025, 10, 3), datetime(2025, 10, 4)
-    ]
-    is_g1 = date.date() in [d.date() for d in g1_storms]
-    is_active = date.date() in [d.date() for d in active_storms]
+    # --- NOAA SPACE WEATHER ---
+    kp = space_weather.get(date.date(), 0)
+    is_g1 = kp >= 5    # G1 storm threshold
+    is_active = 4 <= kp < 5
 
     # Scoring
     score = 0
@@ -55,7 +73,7 @@ def risk_category(score):
     if score >= 1: return ("➖ Mild risk", 2)
     return ("✅ Low risk", 1)
 
-# Build ICS
+# --- Build ICS ---
 ics_lines = [
     "BEGIN:VCALENDAR",
     "VERSION:2.0",
@@ -69,7 +87,7 @@ while current <= end_date:
     score, is_dss2, is_g1, is_active, is_moon, is_period = get_risk(current)
     if score > 0:
         cat, level = risk_category(score)
-        emoji = cat.split()[0]  # Extract just the symbol
+        emoji = cat.split()[0]
         summary = f"{emoji} Risk Level: {level}"
 
         desc_parts = [
@@ -112,13 +130,12 @@ while current <= end_date:
 
 ics_lines.append("END:VCALENDAR")
 
-# Write file directly into calendar folder
+# --- Save file into calendar/ folder ---
 ics_filename = "calendar/ng_risk_calendar.ics"
-
-import os
 os.makedirs("calendar", exist_ok=True)
 
 with open(ics_filename, "w") as f:
     f.write("\n".join(ics_lines))
 
 print(f"✅ Wrote {ics_filename}")
+

@@ -53,7 +53,7 @@ def build_ics(events):
         "REFRESH-INTERVAL;VALUE=DURATION:PT1H",
     ]
 
-       for ev in events:
+    for ev in events:
         dstart = ev["date"].strftime("%Y%m%d")
         dend = (ev["date"] + timedelta(days=1)).strftime("%Y%m%d")
         uid = f"{uuid.uuid4()}@astrology"

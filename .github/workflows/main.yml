@@ -19,7 +19,7 @@ jobs:
       - name: Run ICS builder
         run: python build_ics.py
 
-            - name: Upload ICS file
+      - name: Upload ICS file
         uses: actions/upload-artifact@v4
         with:
           name: calendar

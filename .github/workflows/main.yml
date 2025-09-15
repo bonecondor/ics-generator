@@ -1,27 +1,35 @@
-name: Build ICS
+name: Update ICS
 
 on:
-  workflow_dispatch:   # still lets you run it manually
-  push:                # runs whenever you edit code
+  workflow_dispatch:     # lets you run it manually if needed
+  push:                  # runs on code changes
   schedule:
-    - cron: '0 12 * * 1'   # runs every Monday at 12:00 UTC
+    - cron: "0 12 * * 1"   # every Monday at 12:00 UTC (~8am ET)
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
 
       - name: Run ICS builder
         run: python build_ics.py
 
-      - name: Upload ICS file
-        uses: actions/upload-artifact@v4
-        with:
-          name: calendar
-          path: calendar.ics
+      - name: Commit calendar
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir -p calendar
+          mv ng_risk_calendar_FIXED_SepDec2025.ics.txt calendar/ng_risk_calendar.ics
+          git add calendar/ng_risk_calendar.ics
+          git commit -m "Update ICS $(date -u +'%Y-%m-%d %H:%M:%SZ')" || echo "No changes"
+          git push

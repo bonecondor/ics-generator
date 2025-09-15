@@ -6,291 +6,399 @@ METHOD:PUBLISH
 X-PUBLISHED-TTL:PT1H
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 BEGIN:VEVENT
-DTSTAMP:20250915T233722Z
-UID:93da1aea-050b-439e-ba8d-3af40345008b@astrology
+DTSTAMP:20250915T235822Z
+UID:785de7dd-8815-408f-8167-740ff1d3eb46@astrology
+DTSTART;VALUE=DATE:20250907
+DTEND;VALUE=DATE:20250908
+SUMMARY:✨ 🌕 Lunar Eclipse — Pisces
+DESCRIPTION:Highlight: Collective (✨) — everyone feels this\nCollective: Collective: Endings and revelations in spiritual/healing realms; surrender and closure themes.\nPersonal: Personal: Squares your Sag Sun/Ascendant — tension between faith vs. detail, body vs. spirit.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T235822Z
+UID:f0c80948-4de6-41f0-881d-57bc19d07a25@astrology
 DTSTART;VALUE=DATE:20250921
 DTEND;VALUE=DATE:20250922
-SUMMARY:🌑 New Moon — Virgo
-DESCRIPTION:Collective: Practical resets, health/service themes.\nPersonal: Supports routines and body alignment.
+SUMMARY:🌑 Solar Eclipse — Virgo
+DESCRIPTION:Collective: Collective: New beginnings in health, service, work systems.\nPersonal: Personal: Squares Sag stellium — pushes clarity around routines, health, and body alignment.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T233722Z
-UID:1eba0737-0c46-4f92-9c22-d76e936f1b3e@astrology
+DTSTAMP:20250915T235822Z
+UID:56f9c05b-372c-46db-96bc-cdf9470bb772@astrology
 DTSTART;VALUE=DATE:20251002
 DTEND;VALUE=DATE:20251003
-SUMMARY:☉ Solar Eclipse — Libra
-DESCRIPTION:Collective: Partnerships, balance, justice themes intensified.\nPersonal: Activates your 11th house (friends, networks, collective involvement).
+SUMMARY:✨ ☉ Solar Eclipse — Libra
+DESCRIPTION:Highlight: Collective (✨) — everyone feels this\nCollective: Collective: Partnerships, balance, and justice themes activated.\nPersonal: Personal: Falls in your 11th house — friendships, networks, and collaborations lit up.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T233722Z
-UID:8ec6b013-1a1a-409d-8a4f-f191df949b57@astrology
+DTSTAMP:20250915T235822Z
+UID:c1fa9a17-840a-475e-b584-9933d55ee9b2@astrology
 DTSTART;VALUE=DATE:20251006
 DTEND;VALUE=DATE:20251007
 SUMMARY:♂ Mars → Scorpio
-DESCRIPTION:Collective: Drive, focus, intensity sharpen.\nPersonal: Stirs unconscious material, inner drive (12th house themes).
+DESCRIPTION:Collective: Collective: Energy and drive deepen, focus sharpens, shadow themes surface.\nPersonal: Personal: Mars moves into your 12th house — stirring unconscious material and hidden motivations.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T233722Z
-UID:65030b6d-c6aa-497b-aa54-f6129e475f16@astrology
+DTSTAMP:20250915T235822Z
+UID:3db27db6-c2ec-4260-a5ae-457e588dbd11@astrology
+DTSTART;VALUE=DATE:20251029
+DTEND;VALUE=DATE:20251030
+SUMMARY:🌑 New Moon — Scorpio
+DESCRIPTION:Collective: Collective: Deep renewal, psychological transformation, and power themes.\nPersonal: Personal: Aligns with inner work, spiritual healing, and behind-the-scenes energy.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T235822Z
+UID:3d1f8897-d63d-4817-81bf-caa4132f39e6@astrology
 DTSTART;VALUE=DATE:20251104
 DTEND;VALUE=DATE:20251105
-SUMMARY:♃ Retrograde Station — Gemini
-DESCRIPTION:Collective: Review of growth, learning, and networks.\nPersonal: Opposes your Ascendant — testing partnerships and identity balance.
+SUMMARY:⭐ ♃ Jupiter Retrograde — Gemini
+DESCRIPTION:Highlight: Personal (⭐) — this directly hits your chart\nCollective: Collective: Rethinking growth in learning, networks, and ideas.\nPersonal: Personal: Opposes your Sag Ascendant — relationship dynamics and self-presentation under review.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T233722Z
-UID:54bda7e2-98da-4977-ba76-2af5bf651986@astrology
+DTSTAMP:20250915T235822Z
+UID:75d6ddf5-e23a-43cf-a146-7ec82c7adcaf@astrology
+DTSTART;VALUE=DATE:20251117
+DTEND;VALUE=DATE:20251118
+SUMMARY:🌕 Full Moon — Taurus
+DESCRIPTION:Collective: Collective: Stability vs. change, money and values highlighted.\nPersonal: Personal: Activates your 6th/12th axis — work/service vs. rest/healing balance.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T235822Z
+UID:373a35cf-0f4d-4078-a29a-ecf7c39de79b@astrology
+DTSTART;VALUE=DATE:20251125
+DTEND;VALUE=DATE:20251126
+SUMMARY:♆ Neptune Direct — Pisces
+DESCRIPTION:Collective: Collective: Fog slowly lifts; spiritual and creative visions clarify.\nPersonal: Personal: Neptune active in 3rd/4th house — subtle influence on communication, home, family.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T235822Z
+UID:f293725d-c04c-4bad-81d4-fb80ae95a498@astrology
+DTSTART;VALUE=DATE:20251201
+DTEND;VALUE=DATE:20251202
+SUMMARY:☿ Retrograde Begins — Capricorn
+DESCRIPTION:Collective: Collective: Career, structure, and authority themes reviewed.\nPersonal: Personal: Activates 2nd house — finances, possessions, and values reconsidered.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T235822Z
+UID:659b4a49-d7c4-40d8-a3c5-a00b423eb905@astrology
 DTSTART;VALUE=DATE:20251207
 DTEND;VALUE=DATE:20251208
 SUMMARY:🌕 Full Moon — Gemini
-DESCRIPTION:Collective: Information overflow, clarity vs. gossip.\nPersonal: Lights up your 7th house (partnerships).
+DESCRIPTION:Collective: Collective: Information overload, clarity vs. gossip, decisions needed.\nPersonal: Personal: Lights up your 7th house — relationships and partnerships emphasized.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T233722Z
-UID:fcd96596-778f-4448-879e-722affa0b932@astrology
-DTSTART;VALUE=DATE:20260105
-DTEND;VALUE=DATE:20260106
-SUMMARY:🌑 New Moon — Capricorn
-DESCRIPTION:Collective: Long-term structure and goals reset.\nPersonal: Supports values/finances reflection (2nd house).
+DTSTAMP:20250915T235822Z
+UID:f075dc57-95d8-4759-af3e-d7ce8c0e9de4@astrology
+DTSTART;VALUE=DATE:20251209
+DTEND;VALUE=DATE:20251210
+SUMMARY:☉ Solar Return — Sagittarius
+DESCRIPTION:Collective: Collective: Annual Sun reset — vitality, life direction re-centered.\nPersonal: Personal: Solar Return emphasizes your Sag stellium — identity, purpose, and new year focus.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T233722Z
-UID:0d8d7977-137d-4c27-8f39-763376ae4535@astrology
+DTSTAMP:20250915T235822Z
+UID:25aca661-b258-4510-b75c-a035a6a485e2@astrology
+DTSTART;VALUE=DATE:20251224
+DTEND;VALUE=DATE:20251225
+SUMMARY:♄ Sextile ♅ — Aries/Gemini
+DESCRIPTION:Collective: Collective: Structure harmonizes with innovation; breakthroughs with stability.\nPersonal: Personal: Supports your Moon–Saturn trine — balanced growth in friendships and networks.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T235822Z
+UID:00c2ba92-a0f1-4120-859c-b5fc064d00c9@astrology
+DTSTART;VALUE=DATE:20251229
+DTEND;VALUE=DATE:20251230
+SUMMARY:☿ Retrograde Ends — Capricorn
+DESCRIPTION:Collective: Collective: Plans and communication around authority/career clear up.\nPersonal: Personal: Wraps up financial/value reconsiderations (2nd house).
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T235822Z
+UID:ff6d3a62-2b61-4e33-bd34-6a95285beed6@astrology
 DTSTART;VALUE=DATE:20260106
 DTEND;VALUE=DATE:20260107
 SUMMARY:☿ Retrograde Ends — Capricorn
-DESCRIPTION:Collective: Collective: Communication + planning clears in career/authority matters.\nPersonal: Personal: Wraps up review of your 2nd house (finances, possessions, values).
+DESCRIPTION:Collective: Collective: Communication and planning clears in career/authority matters.\nPersonal: Personal: Wraps up 2nd house review — finances and values.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T233722Z
-UID:fcbfa85f-9932-4b17-a678-0e3099249ec0@astrology
+DTSTAMP:20250915T235822Z
+UID:3f364b28-0530-435c-ac27-fcf939d6edf1@astrology
 DTSTART;VALUE=DATE:20260225
 DTEND;VALUE=DATE:20260226
 SUMMARY:🌑 Solar Eclipse — Pisces
-DESCRIPTION:Collective: Collective: Spiritual, healing, and dissolution themes activated.\nPersonal: Personal: Squares your Sag Sun/Asc — tension between vision vs. detail in daily life.
+DESCRIPTION:Collective: Collective: Collective spiritual/humanitarian reset; healing focus.\nPersonal: Personal: Squares Sag Sun/Asc — tension between body/vitality and ideals.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T233722Z
-UID:2f491199-47b2-4d1b-ba31-c39b194bfac3@astrology
+DTSTAMP:20250915T235822Z
+UID:a7a70114-64fd-4d1c-8628-64bad3162219@astrology
 DTSTART;VALUE=DATE:20260309
 DTEND;VALUE=DATE:20260310
 SUMMARY:☿ Retrograde Begins — Aries
-DESCRIPTION:Collective: Re-think initiative, pacing, assertiveness.\nPersonal: Revisit self-presentation and boundaries.
+DESCRIPTION:Collective: Collective: Review of self-assertion, independence, and identity.\nPersonal: Personal: Revisits self-presentation (1st house).
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T233722Z
-UID:fe75c26c-7584-4d84-904d-aa90c9fb7a61@astrology
-DTSTART;VALUE=DATE:20260309
-DTEND;VALUE=DATE:20260310
-SUMMARY:☿ Retrograde Begins — Aries
-DESCRIPTION:Collective: Collective: Re-thinking initiative, pacing, and assertion.\nPersonal: Personal: Revisit self-presentation + boundaries (1st house themes).
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20250915T233722Z
-UID:059f6839-09c6-4e05-929a-0beae9aa0e8e@astrology
+DTSTAMP:20250915T235822Z
+UID:5325498a-6c75-4052-b344-bedc290aa923@astrology
 DTSTART;VALUE=DATE:20260320
 DTEND;VALUE=DATE:20260321
-SUMMARY:♄ Saturn → Aries
-DESCRIPTION:Collective: Collective: Structure and responsibility themes shift to bold, pioneering action.\nPersonal: Personal: Saturn into your 4th house — restructuring home, roots, foundations.
+SUMMARY:✨ ♄ Saturn → Aries
+DESCRIPTION:Highlight: Collective (✨) — everyone feels this\nCollective: Collective: New cycle of discipline, boundaries, and pioneering action.\nPersonal: Personal: Saturn enters 4th house — restructuring home, roots, and family.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T233722Z
-UID:7a9c9a29-8af3-476d-b090-019ea7cd1639@astrology
+DTSTAMP:20250915T235822Z
+UID:548b9faf-a80e-46c3-a705-93c898d8ac1d@astrology
 DTSTART;VALUE=DATE:20260329
 DTEND;VALUE=DATE:20260330
-SUMMARY:🌕 Lunar Eclipse — Libra
-DESCRIPTION:Collective: Collective: Partnerships, justice, balance highlighted.\nPersonal: Personal: Directly conjunct your Moon — major emotional + relational turning point.
+SUMMARY:⭐ 🌕 Lunar Eclipse — Libra
+DESCRIPTION:Highlight: Personal (⭐) — this directly hits your chart\nCollective: Collective: Partnerships and justice highlighted; relationship rebalancing.\nPersonal: Personal: Conjunct your Moon — major emotional/relational turning point.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T233722Z
-UID:72881c1c-3567-4a48-be2e-eaf280e8bf26@astrology
+DTSTAMP:20250915T235822Z
+UID:8b915fbc-dc30-4008-84de-0d660f3dd988@astrology
 DTSTART;VALUE=DATE:20260530
 DTEND;VALUE=DATE:20260531
 SUMMARY:♃ Jupiter → Cancer
-DESCRIPTION:Collective: Collective: Growth in family, security, emotional life.\nPersonal: Personal: Expands your 8th house — intimacy, shared resources, deep transformations.
+DESCRIPTION:Collective: Collective: Growth in security, family, and emotional nourishment.\nPersonal: Personal: Expands 8th house — intimacy, shared resources, and transformation.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T233722Z
-UID:b2e149de-cc89-4e77-9b83-dfd85d234356@astrology
-DTSTART;VALUE=DATE:20260621
-DTEND;VALUE=DATE:20260622
-SUMMARY:☉ Sun → Cancer
-DESCRIPTION:Collective: Focus turns to home, rest, and care.\nPersonal: Nudges family/roots sector reflections.
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20250915T233722Z
-UID:e9a79c95-332e-47ba-b375-0a361bf858a5@astrology
+DTSTAMP:20250915T235822Z
+UID:18ed1613-e0b0-40b2-9241-6b09fd97ea53@astrology
 DTSTART;VALUE=DATE:20260702
 DTEND;VALUE=DATE:20260703
 SUMMARY:♂ Mars Retrograde Begins — Leo
-DESCRIPTION:Collective: Collective: Energy + drive turned inward; reconsider leadership, creative self-expression.\nPersonal: Personal: Highlights your 9th house — revisiting beliefs, long-range plans.
+DESCRIPTION:Collective: Collective: Energy turned inward; leadership and creativity under review.\nPersonal: Personal: 9th house themes — beliefs, publishing, long-range plans revisited.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T233722Z
-UID:dcb7448f-4d06-45fd-ae73-8eda1d48551d@astrology
+DTSTAMP:20250915T235822Z
+UID:9e87bb75-9dc6-4617-8ead-232e34a80369@astrology
 DTSTART;VALUE=DATE:20260707
 DTEND;VALUE=DATE:20260708
-SUMMARY:♅ Uranus → Gemini
-DESCRIPTION:Collective: Collective: Shifts in communication, networks, technology, AI leaps.\nPersonal: Personal: Opposes your Sag stellium — identity redefinition through new mental/social paradigms.
+SUMMARY:✨ ♅ Uranus → Gemini
+DESCRIPTION:Highlight: Collective (✨) — everyone feels this\nCollective: Collective: Innovation and upheaval in communication, networks, tech.\nPersonal: Personal: Opposes Sag stellium — identity/worldview redefined.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T233722Z
-UID:fa547d3f-d516-44cf-b55d-c9e43a514ef1@astrology
+DTSTAMP:20250915T235822Z
+UID:7737f1b9-8035-4219-aee8-d1dd8fca704b@astrology
 DTSTART;VALUE=DATE:20260812
 DTEND;VALUE=DATE:20260813
 SUMMARY:♀ Venus Retrograde Begins — Scorpio
-DESCRIPTION:Collective: Collective: Reevaluation of intimacy, money, and power dynamics.\nPersonal: Personal: 12th house themes — hidden desires, karmic relationship reviews.
+DESCRIPTION:Collective: Collective: Reevaluation of intimacy, money, and trust.\nPersonal: Personal: Activates 12th house — hidden desires and karmic relationship themes.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T233722Z
-UID:c48f4bee-10d7-46a1-b4c4-5aac2a2d5d3c@astrology
+DTSTAMP:20250915T235822Z
+UID:3b89b61d-7f65-4f65-b8bf-8a700c04bca2@astrology
 DTSTART;VALUE=DATE:20260828
 DTEND;VALUE=DATE:20260829
-SUMMARY:🌑 Solar Eclipse — Virgo
-DESCRIPTION:Collective: Collective: Precision, healing, work, and service resets.\nPersonal: Personal: Squares Sag Sun/Asc — pushes clarity around body/health routines.
+SUMMARY:✨ 🌑 Solar Eclipse — Virgo
+DESCRIPTION:Highlight: Collective (✨) — everyone feels this\nCollective: Collective: Health, service, and precision themes reset.\nPersonal: Personal: Squares Sag stellium — clarity forced in body/mind balance.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T233722Z
-UID:817bcdd0-16b6-43ab-83ba-3b93c2be2721@astrology
+DTSTAMP:20250915T235822Z
+UID:d38fc547-b76a-49da-be58-22ebce6a2ded@astrology
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:♀ Venus Retrograde Ends — Scorpio
-DESCRIPTION:Collective: Collective: Venus resumes direct motion — intimacy + money themes move forward.\nPersonal: Personal: Closure around hidden relationship dynamics.
+DESCRIPTION:Collective: Collective: Relationships and financial dynamics resume forward movement.\nPersonal: Personal: Closes a hidden relationship/karma review.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T233722Z
-UID:69ca9806-e069-4e38-853d-8f03ce7c6a0a@astrology
+DTSTAMP:20250915T235822Z
+UID:8b4aa3ce-2ca3-4ecd-a223-fce6551e6c9a@astrology
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
 SUMMARY:☿ Retrograde Ends — Libra
-DESCRIPTION:Collective: Collective: Partnerships + agreements clarify.\nPersonal: Personal: Wraps up relational miscommunications (11th house networks too).
+DESCRIPTION:Collective: Collective: Partnerships and agreements clarify.\nPersonal: Personal: Wraps up miscommunications in networks and relationships.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T233722Z
-UID:c8b57f0b-9de5-4af5-a9b5-ba2d3097dc68@astrology
+DTSTAMP:20250915T235822Z
+UID:08403cd7-e370-4fe7-abd5-a3a64a270d9b@astrology
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
-SUMMARY:♆ Neptune Retrograde Ends — Aries
-DESCRIPTION:Collective: Collective: Fog lifts around identity + leadership.\nPersonal: Personal: Early activations to your 4th house — home + roots themes subtle but strong.
+SUMMARY:♆ Neptune Direct — Aries
+DESCRIPTION:Collective: Collective: Collective ideals and leadership visions regain traction.\nPersonal: Personal: Early activations to 4th house — family/home clarity emerges.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T233722Z
-UID:8089321a-5a0e-4e09-b648-d75c089de4e1@astrology
+DTSTAMP:20250915T235822Z
+UID:b9396b8f-f94f-4f55-b24a-a7452fa39b45@astrology
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:🌕 Lunar Eclipse — Taurus
-DESCRIPTION:Collective: Collective: Stability, money, values challenged by change.\nPersonal: Personal: Activates your 6th/12th house polarity — health, service, inner retreat themes.
+DESCRIPTION:Collective: Collective: Values, money, and stability challenged.\nPersonal: Personal: Activates 6th/12th polarity — health, work, and spiritual retreat.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T233722Z
-UID:0faf95f2-a2ca-4a7b-98fe-aa37e5af36ac@astrology
+DTSTAMP:20250915T235822Z
+UID:17242358-a371-45ae-a53e-11f132865766@astrology
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:☉ Solar Return — Sagittarius
-DESCRIPTION:Collective: Collective: Yearly Sun reset.\nPersonal: Personal: Your solar return window — identity, vitality, and life direction refresh.
+DESCRIPTION:Collective: Collective: Annual Sun reset.\nPersonal: Personal: Focus on Sag stellium identity and vitality themes.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T233722Z
-UID:2ec5d16a-c9e4-4bb1-bba9-57f44dee720c@astrology
-DTSTART;VALUE=DATE:20261209
-DTEND;VALUE=DATE:20261210
-SUMMARY:☉ Solar Return — Sagittarius
-DESCRIPTION:Collective: Collective: Yearly Sun reset.\nPersonal: Personal: Your solar return window — identity, vitality, and life direction refresh.
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20250915T233722Z
-UID:cc77a0ad-3488-482e-84e6-4692b9b3c885@astrology
+DTSTAMP:20250915T235822Z
+UID:772dfc75-8fd0-4780-aa3e-210023a68018@astrology
 DTSTART;VALUE=DATE:20261225
 DTEND;VALUE=DATE:20261226
-SUMMARY:♇ Pluto → Aquarius
-DESCRIPTION:Collective: Collective: Transformation of technology, systems, collective identity.\nPersonal: Personal: Pluto opposes your Sag stellium + Ascendant — profound shifts in relationships + selfhood.
+SUMMARY:✨ ♇ Pluto → Aquarius
+DESCRIPTION:Highlight: Collective (✨) — everyone feels this\nCollective: Collective: Collective transformation in technology, systems, and power.\nPersonal: Personal: Pluto opposes Ascendant + Sag stellium — profound identity/relationship transformation.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T233722Z
-UID:1efbe6cb-ee49-4ffc-add4-275ece80e942@astrology
+DTSTAMP:20250915T235822Z
+UID:37bbd246-4f4c-4d11-80b6-9c101c048d93@astrology
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:☿ Retrograde Ends — Capricorn
-DESCRIPTION:Collective: Collective: Work, authority, and long-term planning clarity returns.\nPersonal: Personal: Wraps up review of finances + values (2nd house).
+DESCRIPTION:Collective: Collective: Career/authority miscommunications clear.\nPersonal: Personal: Wraps up 2nd house reviews (money, values).
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T233722Z
-UID:217118d1-074f-41e1-8272-178064760e28@astrology
+DTSTAMP:20250915T235822Z
+UID:84d5e26f-e4a6-49c8-a2a4-bd7fa3feef49@astrology
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
 SUMMARY:♄ Saturn → Pisces
-DESCRIPTION:Collective: Collective: Responsibility shifts toward compassion, boundaries, and dissolving structures.\nPersonal: Personal: Revisits your 3rd house — communication, learning, siblings dynamics restructure.
+DESCRIPTION:Collective: Collective: Boundaries soften; responsibility shifts to compassion/healing.\nPersonal: Personal: Revisits 3rd house — communication and mental patterns restructured.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T233722Z
-UID:54364b90-6f51-48cc-bf77-4b481e7d3135@astrology
+DTSTAMP:20250915T235822Z
+UID:3f3f6a34-d56f-4657-90fb-aad981e47895@astrology
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
 SUMMARY:🌑 Solar Eclipse — Aquarius
-DESCRIPTION:Collective: Collective: Innovation, community, and future-oriented visions activated.\nPersonal: Personal: Lights up your 3rd house — voice, learning, and message recalibration.
+DESCRIPTION:Collective: Collective: Innovation, community, and future visions emphasized.\nPersonal: Personal: Activates 3rd house — voice, learning, message recalibration.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T233722Z
-UID:d4c7c7b0-ff66-492c-8450-773ec503d497@astrology
+DTSTAMP:20250915T235822Z
+UID:b0f995cb-87e2-4b3a-9a40-68ad17ac5e89@astrology
 DTSTART;VALUE=DATE:20270303
 DTEND;VALUE=DATE:20270304
 SUMMARY:☿ Retrograde Begins — Pisces
-DESCRIPTION:Collective: Collective: Re-thinking spiritual practice, compassion, and escape tendencies.\nPersonal: Personal: Revisits 3rd/4th house — how you communicate emotions and roots.
+DESCRIPTION:Collective: Collective: Review of spirituality, compassion, and mental health themes.\nPersonal: Personal: Revisits 3rd/4th houses — communication around emotions, home.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T233722Z
-UID:2199dbfd-1088-4428-8905-99479871b150@astrology
+DTSTAMP:20250915T235822Z
+UID:d3424adb-3188-4a2e-947c-e00297a5c295@astrology
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270321
 SUMMARY:♃ Jupiter → Leo
-DESCRIPTION:Collective: Collective: Growth in leadership, creative expression, and confidence.\nPersonal: Personal: Expands your 9th house — philosophy, publishing, and travel opportunities.
+DESCRIPTION:Collective: Collective: Growth in creativity, leadership, and confidence.\nPersonal: Personal: Expands 9th house — beliefs, philosophy, travel, publishing.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T233722Z
-UID:03c415fc-1e0d-430c-8474-2dff700cf62b@astrology
+DTSTAMP:20250915T235822Z
+UID:3a0c1ffc-7834-4502-956d-b268afa0c84d@astrology
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
-SUMMARY:🌕 Lunar Eclipse — Libra
-DESCRIPTION:Collective: Collective: Partnership themes intensified, relational rebalancing.\nPersonal: Personal: Conjunct your natal Moon — another powerful emotional/relational re
+SUMMARY:⭐ 🌕 Lunar Eclipse — Libra
+DESCRIPTION:Highlight: Personal (⭐) — this directly hits your chart\nCollective: Collective: Partnerships, fairness, and relational clarity.\nPersonal: Personal: Conjunct natal Moon — another deep relational/emotional cycle.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250915T233722Z
-UID:c3197a93-c94f-4d76-afa6-30b1750f993b@astrology
+DTSTAMP:20250915T235822Z
+UID:a9b11ca9-377c-4a8f-b6ec-9bcf238428e8@astrology
+DTSTART;VALUE=DATE:20270526
+DTEND;VALUE=DATE:20270527
+SUMMARY:⭐ ♂ Mars Retrograde — Gemini
+DESCRIPTION:Highlight: Personal (⭐) — this directly hits your chart\nCollective: Collective: Energy redirected inward; communication and tech reassessed.\nPersonal: Personal: Opposes Sag stellium — major recalibration of identity + drive.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T235822Z
+UID:b87cd806-9e50-45ea-aa18-bee484288054@astrology
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:✨ ♆ Neptune → Aries
+DESCRIPTION:Highlight: Collective (✨) — everyone feels this\nCollective: Collective: Dreams and ideals shift toward courage, individuality, and action.\nPersonal: Personal: Early impact to 4th house — dissolving/reimagining home and roots.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T235822Z
+UID:f5030fb0-de07-41e2-ad4a-a8176b01571c@astrology
+DTSTART;VALUE=DATE:20270718
+DTEND;VALUE=DATE:20270719
+SUMMARY:🌑 Solar Eclipse — Cancer
+DESCRIPTION:Collective: Collective: Focus on home, nurturing, and security.\nPersonal: Personal: Activates 8th house — intimacy, shared resources, transformation.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T235822Z
+UID:6465a344-649d-4642-a411-f4d296929732@astrology
+DTSTART;VALUE=DATE:20270825
+DTEND;VALUE=DATE:20270826
+SUMMARY:♀ Venus Retrograde Begins — Capricorn
+DESCRIPTION:Collective: Collective: Reevaluation of love, values, and career structures.\nPersonal: Personal: Activates 2nd house — money, worth, agreements reconsidered.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T235822Z
+UID:1760430c-c2e9-4878-9c15-7428a34bba1b@astrology
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20270902
+SUMMARY:☿ Retrograde Begins — Virgo
+DESCRIPTION:Collective: Collective: Rethinking health, work, and daily habits.\nPersonal: Personal: Squares Sag placements — body/service balance stressed.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T235822Z
+UID:0e43fa4a-1c16-4d84-8f47-ae3655b19d85@astrology
+DTSTART;VALUE=DATE:20270916
+DTEND;VALUE=DATE:20270917
+SUMMARY:⭐ 🌕 Lunar Eclipse — Pisces
+DESCRIPTION:Highlight: Personal (⭐) — this directly hits your chart\nCollective: Collective: Endings in spiritual/service realms.\nPersonal: Personal: Squares Sag Sun/Asc — turning point balancing ideals vs. vitality.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T235822Z
+UID:cc6e0b07-5fc0-4ff6-9186-9c090e864676@astrology
+DTSTART;VALUE=DATE:20271013
+DTEND;VALUE=DATE:20271014
+SUMMARY:♅ Uranus Direct — Gemini
+DESCRIPTION:Collective: Collective: Shifts in communication and tech stabilize after upheaval.\nPersonal: Personal: Continues opposition to Sag stellium — identity/worldview tension eases.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T235822Z
+UID:28b87170-a38a-432b-bcaa-f6cb0a648d1c@astrology
+DTSTART;VALUE=DATE:20271122
+DTEND;VALUE=DATE:20271123
+SUMMARY:✨ ♇ Pluto Direct — Aquarius
+DESCRIPTION:Highlight: Collective (✨) — everyone feels this\nCollective: Collective: Collective tech, systems, and identity restructuring intensifies.\nPersonal: Personal: Pluto opposite Asc exact — deep transformation in relationships/selfhood.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250915T235822Z
+UID:a473b2de-947c-4220-9d0d-d6ded6b1ac99@astrology
 DTSTART;VALUE=DATE:20271209
 DTEND;VALUE=DATE:20271210
-SUMMARY:☉ Solar Return — Sagittarius
-DESCRIPTION:Collective: Collective: Yearly Sun reset.\nPersonal: Personal: Your solar return window — identity, vitality, and life direction refresh.
+SUMMARY:⭐ ☉ Solar Return — Sagittarius
+DESCRIPTION:Highlight: Personal (⭐) — this directly hits your chart\nCollective: Collective: Annual Sun reset.\nPersonal: Personal: Re-centers vitality, identity, and your Sag stellium.
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

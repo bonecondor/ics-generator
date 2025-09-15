@@ -28,8 +28,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          mkdir -p calendar
-          mv ng_risk_calendar_FIXED_SepDec2025.ics.txt calendar/ng_risk_calendar.ics
           git add calendar/ng_risk_calendar.ics
-          git commit -m "Update ICS $(date -u +'%Y-%m-%d %H:%M:%SZ')" || echo "No changes"
+          git commit -m "Update ICS $(date -u +'%Y-%m-%d %H:%M:%SZ')" || echo "No changes to commit"
           git push

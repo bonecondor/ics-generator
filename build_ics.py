@@ -2,7 +2,7 @@ from datetime import datetime, timedelta
 import uuid
 
 # Configurations
-start_date = datetime.utcnow().date()
+start_date = datetime.utcnow()
 end_date = start_date + timedelta(weeks=12)
 
 def get_risk(date):

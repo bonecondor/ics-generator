@@ -2,8 +2,8 @@ from datetime import datetime, timedelta
 import uuid
 
 # Configurations
-start_date = datetime(2025, 9, 14)
-end_date = datetime(2025, 12, 31)
+start_date = datetime.utcnow().date()
+end_date = start_date + timedelta(weeks=12)
 
 def get_risk(date):
     # Shot cycle: assume Friday shots, DSS=2 on Sundays

@@ -2,6 +2,7 @@ from datetime import datetime, timedelta
 import uuid
 import os
 import requests
+from astral import moon
 
 # --- NOAA SPACE WEATHER FORECAST ---
 def get_space_weather_forecast():
@@ -47,10 +48,11 @@ def get_risk(date):
             period_days.add((ps + timedelta(days=off)).date())
     is_period = date.date() in period_days
 
-    # Moon phases (simplified)
-    full_moons = [datetime(2025, 9, 17), datetime(2025, 10, 6)]
-    new_moons = [datetime(2025, 9, 21), datetime(2025, 10, 29)]
-    is_moon = any(abs((date - m).days) <= 3 for m in full_moons + new_moons)
+    # Moon phases (via Astral)
+    phase = moon.phase(date)  # 0 = new, ~14 = full
+    is_new = phase < 1 or phase > 28
+    is_full = 13 <= phase <= 15
+    is_moon = is_new or is_full
 
     # --- NOAA SPACE WEATHER ---
     kp = space_weather.get(date.date(), 0)

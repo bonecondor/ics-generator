@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime, timedelta
 import uuid
 import os
 
@@ -37,4 +37,28 @@ ics_lines = [
 for date_str, title, desc in astrology_events:
     date = datetime.strptime(date_str, "%Y-%m-%d")
     dstart = date.strftime("%Y%m%d")
-    dend = (date.replace(hour=
+    dend = (date + timedelta(days=1)).strftime("%Y%m%d")
+    uid = f"{uuid.uuid4()}@astrology"
+    
+    ics_lines += [
+        "BEGIN:VEVENT",
+        f"DTSTAMP:{datetime.utcnow().strftime('%Y%m%dT%H%M%SZ')}",
+        f"UID:{uid}",
+        f"DTSTART;VALUE=DATE:{dstart}",
+        f"DTEND;VALUE=DATE:{dend}",
+        f"SUMMARY:{title}",
+        f"DESCRIPTION:{desc}",
+        "TRANSP:TRANSPARENT",
+        "END:VEVENT"
+    ]
+
+ics_lines.append("END:VCALENDAR")
+
+# --- Save file ---
+ics_filename = "calendar/astrology_events.ics"
+os.makedirs("calendar", exist_ok=True)
+
+with open(ics_filename, "w") as f:
+    f.write("\n".join(ics_lines))
+
+print(f"✅ Wrote {ics_filename}")

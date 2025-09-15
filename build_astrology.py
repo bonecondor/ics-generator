@@ -53,10 +53,24 @@ def build_ics(events):
         "REFRESH-INTERVAL;VALUE=DURATION:PT1H",
     ]
 
-    for ev in events:
+       for ev in events:
         dstart = ev["date"].strftime("%Y%m%d")
         dend = (ev["date"] + timedelta(days=1)).strftime("%Y%m%d")
         uid = f"{uuid.uuid4()}@astrology"
+
+        title = ev["title"]
+        desc = ev["desc"]
+
+        # Inject highlight legend for ✨ (collective) or ⭐ (personal)
+        legend_line = ""
+        if title.lstrip().startswith("✨"):
+            legend_line = "Highlight: Collective (✨) — everyone feels this"
+        elif title.lstrip().startswith("⭐"):
+            legend_line = "Highlight: Personal (⭐) — this directly hits your chart"
+
+        if legend_line:
+            # Prepend the legend line above the existing description
+            desc = f"{legend_line}\\n{desc}"
 
         ics_lines += [
             "BEGIN:VEVENT",
@@ -64,8 +78,8 @@ def build_ics(events):
             f"UID:{uid}",
             f"DTSTART;VALUE=DATE:{dstart}",
             f"DTEND;VALUE=DATE:{dend}",
-            f"SUMMARY:{ev['title']}",
-            f"DESCRIPTION:{ev['desc']}",
+            f"SUMMARY:{title}",
+            f"DESCRIPTION:{desc}",
             "TRANSP:TRANSPARENT",
             "END:VEVENT"
         ]

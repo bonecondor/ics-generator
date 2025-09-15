@@ -1,83 +1,87 @@
 from datetime import datetime, timedelta
-import uuid
+import csv
 import os
+import uuid
 
-# --- Astrology events Sept–Dec 2025 (collective + personal) ---
-astrology_events = [
-    # Collective
-    ("2025-09-21", "🌑 New Moon — Virgo",
-     "Collective: Practical resets, health/service themes.\nPersonal: Supports routines and body alignment.\nKeywords: purification, grounding, new cycles."),
-    
-    ("2025-09-29", "🌕 Full Moon Eclipse — Aries",
-     "Collective: Heightened energy, confrontations, release cycles.\nPersonal: Lights up self vs. other dynamics in relationships.\nKeywords: courage, independence, closure."),
-    
-    ("2025-10-02", "☉ Solar Eclipse — Libra",
-     "Collective: Partnerships, balance, justice themes intensified.\nPersonal: Activates your 11th house (friends, networks, collective involvement).\nKeywords: renewal, social shifts, relationship clarity."),
-    
-    ("2025-10-06", "♂ Mars → Scorpio",
-     "Collective: Drive, focus, and intensity sharpen.\nPersonal: Stirs unconscious material, inner drive (12th house themes).\nKeywords: determination, shadow work, persistence."),
-    
-    ("2025-10-29", "🌑 New Moon — Scorpio",
-     "Collective: Deep renewal, power themes.\nPersonal: Resonates with inner psychological growth and healing.\nKeywords: transformation, depth, regeneration."),
-    
-    ("2025-11-04", "♃ Retrograde Station — Gemini",
-     "Collective: Review of growth, learning, and networks.\nPersonal: Opposes your Ascendant — testing partnerships and identity balance.\nKeywords: reevaluation, duality, perspective shift."),
-    
-    ("2025-11-17", "🌕 Full Moon — Taurus",
-     "Collective: Stability vs. change tensions.\nPersonal: Activates your values and resource axis.\nKeywords: grounding, release, security."),
-    
-    ("2025-11-25", "♆ Neptune Direct — Pisces",
-     "Collective: Fog lifts slowly, dreams reorient.\nPersonal: Subtle influence on family/roots sector.\nKeywords: intuition, clarity, spiritual flow."),
-    
-    ("2025-12-01", "☿ Retrograde Begins — Capricorn",
-     "Collective: Career, structure, goals under review.\nPersonal: Revisiting 2nd house matters (finances, possessions, values).\nKeywords: delays, reflection, restructuring."),
-    
-    ("2025-12-07", "🌕 Full Moon — Gemini",
-     "Collective: Information overflow, clarity vs. gossip.\nPersonal: Lights up your 7th house (partnerships).\nKeywords: communication, relationship focus, decision-making."),
-    
-    ("2025-12-24", "♄ ✧ Uranus Sextile",
-     "Collective: Innovation and structure harmonize.\nPersonal: Supports your Moon trine Saturn pattern (stability in friendships and networks).\nKeywords: balance, opportunity, growth."),
-    
-    ("2025-12-29", "☿ Retrograde Ends — Capricorn",
-     "Collective: Clarity in career and structure returns.\nPersonal: Forward movement in finances and values sector.\nKeywords: resolution, progress, regained clarity."),
-]
+CSV_PATH = "data/astrology_events.csv"
+OUTPUT_PATH = "calendar/astrology_events.ics"
 
-# --- Build ICS ---
-ics_lines = [
-    "BEGIN:VCALENDAR",
-    "VERSION:2.0",
-    "PRODID:-//Astrology Calendar//EN",
-    "CALSCALE:GREGORIAN",
-    "METHOD:PUBLISH"
-]
+def load_events(csv_path):
+    events = []
+    with open(csv_path, "r", encoding="utf-8") as f:
+        reader = csv.DictReader(
+            (line for line in f if line.strip() and not line.strip().startswith("#"))
+        )
+        for row in reader:
+            # Basic validation
+            try:
+                date_obj = datetime.strptime(row["date"].strip(), "%Y-%m-%d")
+            except Exception as e:
+                print(f"Skipping row with bad date: {row} ({e})")
+                continue
 
-for date_str, title, desc in astrology_events:
-    date = datetime.strptime(date_str, "%Y-%m-%d")
-    dstart = date.strftime("%Y%m%d")
-    dend = (date + timedelta(days=1)).strftime("%Y%m%d")
-    uid = f"{uuid.uuid4()}@astrology"
-    
-    ics_lines += [
-        "BEGIN:VEVENT",
-        f"DTSTAMP:{datetime.utcnow().strftime('%Y%m%dT%H%M%SZ')}",
-        f"UID:{uid}",
-        f"DTSTART;VALUE=DATE:{dstart}",
-        f"DTEND;VALUE=DATE:{dend}",
-        f"SUMMARY:{title}",
-        f"DESCRIPTION:{desc}",
-        "TRANSP:TRANSPARENT",
-        "END:VEVENT"
+            title = (row.get("title", "") or "").strip()
+            cdesc = (row.get("collective_desc", "") or "").strip()
+            pdesc = (row.get("personal_desc", "") or "").strip()
+
+            # Build description with both layers
+            lines = []
+            if cdesc:
+                lines.append(f"Collective: {cdesc}")
+            if pdesc:
+                lines.append(f"Personal: {pdesc}")
+            desc = "\\n".join(lines) if lines else " "
+
+            events.append({
+                "date": date_obj,
+                "title": title,
+                "desc": desc
+            })
+
+    # Sort by date just in case
+    events.sort(key=lambda e: e["date"])
+    return events
+
+def build_ics(events):
+    ics_lines = [
+        "BEGIN:VCALENDAR",
+        "VERSION:2.0",
+        "PRODID:-//Astrology Calendar//EN",
+        "CALSCALE:GREGORIAN",
+        "METHOD:PUBLISH",
+        "X-PUBLISHED-TTL:PT1H",
+        "REFRESH-INTERVAL;VALUE=DURATION:PT1H",
     ]
 
-ics_lines.append("END:VCALENDAR")
+    for ev in events:
+        dstart = ev["date"].strftime("%Y%m%d")
+        dend = (ev["date"] + timedelta(days=1)).strftime("%Y%m%d")
+        uid = f"{uuid.uuid4()}@astrology"
 
-# --- Save file ---
-ics_filename = "calendar/astrology_events.ics"
-os.makedirs("calendar", exist_ok=True)
+        ics_lines += [
+            "BEGIN:VEVENT",
+            f"DTSTAMP:{datetime.utcnow().strftime('%Y%m%dT%H%M%SZ')}",
+            f"UID:{uid}",
+            f"DTSTART;VALUE=DATE:{dstart}",
+            f"DTEND;VALUE=DATE:{dend}",
+            f"SUMMARY:{ev['title']}",
+            f"DESCRIPTION:{ev['desc']}",
+            "TRANSP:TRANSPARENT",
+            "END:VEVENT"
+        ]
 
-with open(ics_filename, "w") as f:
-    f.write("\n".join(ics_lines))
+    ics_lines.append("END:VCALENDAR")
+    return "\n".join(ics_lines)
 
-print(f"✅ Wrote {ics_filename}")
+def main():
+    events = load_events(CSV_PATH)
+    if not events:
+        print("No events loaded from CSV.")
+        return
+    os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
+    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+        f.write(build_ics(events))
+    print(f"✅ Wrote {OUTPUT_PATH} with {len(events)} events")
 
-
+if __name__ == "__main__":
+    main()

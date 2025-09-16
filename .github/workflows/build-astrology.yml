@@ -1,7 +1,7 @@
 name: Build Astrology Calendar
 
 on:
-  workflow_dispatch: # run manually from Actions tab
+  workflow_dispatch:        # manual run button
   push:
     paths:
       - "data/astrology_events.csv"
@@ -18,17 +18,19 @@ jobs:
         with:
           python-version: "3.11"
 
+      # build_astrology.py must read from data/astrology_events.csv
+      # and write to calendar/astrology_events.ics (which yours does)
       - name: Run Astrology builder
         run: python build_astrology.py
 
-      - name: Commit astrology calendar
+      # 💥 no rebases, no merges — just force push the generated ICS
+      - name: Commit astrology calendar (force push)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main
           git add calendar/astrology_events.ics
           git commit -m "Update astrology events ICS" || echo "No changes"
-          git push
+          git push --force
 
       - name: Upload astrology .ics as artifact
         uses: actions/upload-artifact@v4

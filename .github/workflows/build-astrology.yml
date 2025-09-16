@@ -16,6 +16,9 @@ jobs:
 
       - name: Run Astrology builder
         run: python build_astrology.py
+        
+      - name: Install dependencies
+        run: pip install ics
 
       - name: Commit astrology calendar
         run: |

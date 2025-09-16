@@ -1,35 +1,40 @@
 import csv
-from ics import Calendar, Event
 from datetime import datetime
 
-def build_astrology_ics(csv_path="astrology_events.csv", ics_path="astrology_events.ics"):
-    cal = Calendar()
-
+def build_astrology_ics(csv_path="astrology_events.csv", ics_path="calendar/astrology_events.ics"):
     with open(csv_path, newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
-        for row in reader:
-            event = Event()
-            # Title
-            event.name = row["title"]
+        rows = list(reader)
 
-            # Date → all-day
-            event.begin = datetime.strptime(row["date"], "%Y-%m-%d")
-            event.make_all_day()
+    lines = []
+    lines.append("BEGIN:VCALENDAR")
+    lines.append("VERSION:2.0")
+    lines.append("PRODID:-//Astrology Events//EN")
 
-            # Description → combine collective, personal, and themes
-            desc_parts = []
-            if row.get("collective_desc"):
-                desc_parts.append("Collective: " + row["collective_desc"])
-            if row.get("personal_desc"):
-                desc_parts.append("Personal: " + row["personal_desc"])
-            if row.get("themes"):
-                desc_parts.append("Themes: " + row["themes"])
+    for row in rows:
+        date = datetime.strptime(row["date"], "%Y-%m-%d").strftime("%Y%m%d")
+        uid = f"{row['title'].replace(' ', '')}-{date}@astro"
+        desc_parts = []
+        if row.get("collective_desc"):
+            desc_parts.append("Collective: " + row["collective_desc"])
+        if row.get("personal_desc"):
+            desc_parts.append("Personal: " + row["personal_desc"])
+        if row.get("themes"):
+            desc_parts.append("Themes: " + row["themes"])
+        description = "\\n".join(desc_parts)
 
-            event.description = "\n".join(desc_parts)
-            cal.events.add(event)
+        lines.append("BEGIN:VEVENT")
+        lines.append(f"UID:{uid}")
+        lines.append(f"DTSTAMP:{datetime.utcnow().strftime('%Y%m%dT%H%M%SZ')}")
+        lines.append(f"DTSTART;VALUE=DATE:{date}")
+        lines.append(f"SUMMARY:{row['title']}")
+        lines.append(f"DESCRIPTION:{description}")
+        lines.append("END:VEVENT")
+
+    lines.append("END:VCALENDAR")
 
     with open(ics_path, "w", encoding="utf-8") as f:
-        f.writelines(cal)
+        f.write("\n".join(lines))
 
 if __name__ == "__main__":
     build_astrology_ics()

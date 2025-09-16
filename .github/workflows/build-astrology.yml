@@ -14,11 +14,11 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Run Astrology builder
-        run: python build_astrology.py
-        
       - name: Install dependencies
         run: pip install ics
+
+      - name: Run Astrology builder
+        run: python build_astrology.py
 
       - name: Commit astrology calendar
         run: |

@@ -1,101 +1,35 @@
-from datetime import datetime, timedelta
 import csv
-import os
-import uuid
+from ics import Calendar, Event
+from datetime import datetime
 
-CSV_PATH = "data/astrology_events.csv"
-OUTPUT_PATH = "calendar/astrology_events.ics"
+def build_astrology_ics(csv_path="astrology_events.csv", ics_path="astrology_events.ics"):
+    cal = Calendar()
 
-def load_events(csv_path):
-    events = []
-    with open(csv_path, "r", encoding="utf-8") as f:
-        reader = csv.DictReader(
-            (line for line in f if line.strip() and not line.strip().startswith("#"))
-        )
+    with open(csv_path, newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
         for row in reader:
-            # Basic validation
-            try:
-                date_obj = datetime.strptime(row["date"].strip(), "%Y-%m-%d")
-            except Exception as e:
-                print(f"Skipping row with bad date: {row} ({e})")
-                continue
+            event = Event()
+            # Title
+            event.name = row["title"]
 
-            title = (row.get("title", "") or "").strip()
-            cdesc = (row.get("collective_desc", "") or "").strip()
-            pdesc = (row.get("personal_desc", "") or "").strip()
+            # Date → all-day
+            event.begin = datetime.strptime(row["date"], "%Y-%m-%d")
+            event.make_all_day()
 
-            # Build description with both layers
-            lines = []
-            if cdesc:
-                lines.append(f"Collective: {cdesc}")
-            if pdesc:
-                lines.append(f"Personal: {pdesc}")
-            desc = "\\n".join(lines) if lines else " "
+            # Description → combine collective, personal, and themes
+            desc_parts = []
+            if row.get("collective_desc"):
+                desc_parts.append("Collective: " + row["collective_desc"])
+            if row.get("personal_desc"):
+                desc_parts.append("Personal: " + row["personal_desc"])
+            if row.get("themes"):
+                desc_parts.append("Themes: " + row["themes"])
 
-            events.append({
-                "date": date_obj,
-                "title": title,
-                "desc": desc
-            })
+            event.description = "\n".join(desc_parts)
+            cal.events.add(event)
 
-    # Sort by date just in case
-    events.sort(key=lambda e: e["date"])
-    return events
-
-def build_ics(events):
-    ics_lines = [
-        "BEGIN:VCALENDAR",
-        "VERSION:2.0",
-        "PRODID:-//Astrology Calendar//EN",
-        "CALSCALE:GREGORIAN",
-        "METHOD:PUBLISH",
-        "X-PUBLISHED-TTL:PT1H",
-        "REFRESH-INTERVAL;VALUE=DURATION:PT1H",
-    ]
-
-    for ev in events:
-        dstart = ev["date"].strftime("%Y%m%d")
-        dend = (ev["date"] + timedelta(days=1)).strftime("%Y%m%d")
-        uid = f"{uuid.uuid4()}@astrology"
-
-        title = ev["title"]
-        desc = ev["desc"]
-
-        # Inject highlight legend for ✨ (collective) or ⭐ (personal)
-        legend_line = ""
-        if title.lstrip().startswith("✨"):
-            legend_line = "Highlight: Collective (✨) — everyone feels this"
-        elif title.lstrip().startswith("⭐"):
-            legend_line = "Highlight: Personal (⭐) — this directly hits your chart"
-
-        if legend_line:
-            # Prepend the legend line above the existing description
-            desc = f"{legend_line}\\n{desc}"
-
-        ics_lines += [
-            "BEGIN:VEVENT",
-            f"DTSTAMP:{datetime.utcnow().strftime('%Y%m%dT%H%M%SZ')}",
-            f"UID:{uid}",
-            f"DTSTART;VALUE=DATE:{dstart}",
-            f"DTEND;VALUE=DATE:{dend}",
-            f"SUMMARY:{title}",
-            f"DESCRIPTION:{desc}",
-            "TRANSP:TRANSPARENT",
-            "END:VEVENT"
-        ]
-
-    ics_lines.append("END:VCALENDAR")
-    return "\n".join(ics_lines)
-
-def main():
-    events = load_events(CSV_PATH)
-    if not events:
-        print("No events loaded from CSV.")
-        return
-    os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
-    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
-        f.write(build_ics(events))
-    print(f"✅ Wrote {OUTPUT_PATH} with {len(events)} events")
+    with open(ics_path, "w", encoding="utf-8") as f:
+        f.writelines(cal)
 
 if __name__ == "__main__":
-    main()
+    build_astrology_ics()

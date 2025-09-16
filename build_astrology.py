@@ -1,7 +1,7 @@
 import csv
 from datetime import datetime
 
-def build_astrology_ics(csv_path="astrology_events.csv", ics_path="calendar/astrology_events.ics"):
+def build_astrology_ics(csv_path="data/astrology_events.csv", ics_path="calendar/astrology_events.ics"):
     with open(csv_path, newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         rows = list(reader)

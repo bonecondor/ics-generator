@@ -1,1133 +1,879 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Astrology Calendar//EN
-CALSCALE:GREGORIAN
-METHOD:PUBLISH
-X-PUBLISHED-TTL:PT1H
-REFRESH-INTERVAL;VALUE=DURATION:PT1H
+PRODID:-//Astrology Events//EN
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:79fc0438-35cd-4fca-8408-cf9fc9240164@astrology
+UID:MercuryRetrogradebegins—Libra-20250901@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20250902
 SUMMARY:Mercury Retrograde begins — Libra
-DESCRIPTION:Collective: Collective miscommunications in relationships, fairness, and balance.\nPersonal: Conjunct your Libra Moon → heightened miscommunications in friendships or group roles.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective miscommunications in relationships, fairness, and balance.\nPersonal: Conjunct your Libra Moon → heightened miscommunications in friendships or group roles.\nThemes: relationships, fairness, miscommunication, delays
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:20387e9d-f232-45ea-8935-b0901439e1ec@astrology
+UID:✨LunarEclipse—Pisces-20250907@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20250907
-DTEND;VALUE=DATE:20250908
 SUMMARY:✨ Lunar Eclipse — Pisces
-DESCRIPTION:Highlight: Collective (✨) — everyone feels this\nCollective: Expect foggy thinking, fatigue, and emotional spillover.\nPersonal: Squares your Sag Sun → you might feel scattered or suddenly doubt your direction.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Expect foggy thinking, fatigue, and emotional spillover.\nPersonal: Squares your Sag Sun → you might feel scattered or suddenly doubt your direction.\nThemes: confusion, dreams, overwhelm, dissolving boundaries
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:b6718c04-3fc6-4006-a230-9d70a2d22f6e@astrology
+UID:MercuryRetrogradeends—Virgo-20250921@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20250921
-DTEND;VALUE=DATE:20250922
 SUMMARY:Mercury Retrograde ends — Virgo
-DESCRIPTION:Collective: Miscommunications ease in health, work, and routines.\nPersonal: Eases square to your Sag placements → clarity returns in daily life.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Miscommunications ease in health, work, and routines.\nPersonal: Eases square to your Sag placements → clarity returns in daily life.\nThemes: clarity, order, routines, communication
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:e5e33cc6-8493-4544-a890-477bc45aca2d@astrology
+UID:FullMoon—Pisces-20250921@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20250921
-DTEND;VALUE=DATE:20250922
 SUMMARY:Full Moon — Pisces
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:2dbe7967-f254-4456-b909-ea3c6df11ea1@astrology
+UID:⭐SolarEclipse—Libra-20251002@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20251002
-DTEND;VALUE=DATE:20251003
 SUMMARY:⭐ Solar Eclipse — Libra
-DESCRIPTION:Highlight: Personal (⭐) — this directly hits your chart\nCollective: Brings relationship shake-ups and fairness questions.\nPersonal: Near your Libra Moon → friendship/community shifts, emotional pivots in groups.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Brings relationship shake-ups and fairness questions.\nPersonal: Near your Libra Moon → friendship/community shifts, emotional pivots in groups.\nThemes: partnerships, balance, justice, emotional reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:96c4b16a-74af-46c7-b7a4-c9b7927a56b9@astrology
+UID:NeptuneRetrogradebegins—Pisces-20251006@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20251006
-DTEND;VALUE=DATE:20251007
 SUMMARY:Neptune Retrograde begins — Pisces
-DESCRIPTION:Collective: Collective fog lifts slightly; spiritual and imaginative themes under review.\nPersonal: Squares Sag placements → heightened confusion or inspiration.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective fog lifts slightly; spiritual and imaginative themes under review.\nPersonal: Squares Sag placements → heightened confusion or inspiration.\nThemes: dreams, spirituality, illusion, review
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:ac1228a0-226f-4e3e-bfa9-17a646fcf384@astrology
+UID:NewMoon—Libra-20251006@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20251006
-DTEND;VALUE=DATE:20251007
 SUMMARY:New Moon — Libra
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:2f820aea-2e9a-4c80-9427-0c2b6073987e@astrology
+UID:JupiterRetrogradebegins—Gemini-20251015@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20251015
-DTEND;VALUE=DATE:20251016
 SUMMARY:Jupiter Retrograde begins — Gemini
-DESCRIPTION:Collective: Expansion slows in collective communication, learning, and networks.\nPersonal: Opposes Sag stellium → optimism may feel stalled.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Expansion slows in collective communication, learning, and networks.\nPersonal: Opposes Sag stellium → optimism may feel stalled.\nThemes: delay, learning, networks, pause
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:46453297-2811-45bb-ab6a-bfa58bb9521e@astrology
+UID:FullMoon—Aries-20251020@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20251020
-DTEND;VALUE=DATE:20251021
 SUMMARY:Full Moon — Aries
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:04d3640d-830a-4e2b-806c-085c34ca6ded@astrology
+UID:NewMoon—Scorpio-20251105@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20251105
-DTEND;VALUE=DATE:20251106
 SUMMARY:New Moon — Scorpio
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:5e8b972c-ce32-477a-86c6-d059c8802d7f@astrology
+UID:FullMoon—Taurus-20251119@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20251119
-DTEND;VALUE=DATE:20251120
 SUMMARY:Full Moon — Taurus
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:02b6e310-c545-4239-a55f-1bd4faadcb74@astrology
+UID:MercuryRetrogradebegins—Sagittarius-20251125@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20251125
-DTEND;VALUE=DATE:20251126
 SUMMARY:Mercury Retrograde begins — Sagittarius
-DESCRIPTION:Collective: Miscommunications and delays in travel, publishing, sharing ideas.\nPersonal: Hits your Sag stellium → tongue-tied, mix-ups, second-guessing.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Miscommunications and delays in travel, publishing, sharing ideas.\nPersonal: Hits your Sag stellium → tongue-tied, mix-ups, second-guessing.\nThemes: missteps, delay, confusion, rethinking
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:73889b20-9751-4a43-aac5-58dce8ae924f@astrology
+UID:UranusRetrogradebegins—Gemini-20251127@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20251127
-DTEND;VALUE=DATE:20251128
 SUMMARY:Uranus Retrograde begins — Gemini
-DESCRIPTION:Collective: Collective rethink of information, communication, and innovation.\nPersonal: Squares Sag stellium → pressure on self-expression and clarity.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective rethink of information, communication, and innovation.\nPersonal: Squares Sag stellium → pressure on self-expression and clarity.\nThemes: communication, rethink, technology, change
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:012e899c-c095-4294-8287-d2fb23ba14f3@astrology
+UID:NewMoon—Sagittarius-20251204@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20251204
-DTEND;VALUE=DATE:20251205
 SUMMARY:New Moon — Sagittarius
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:264456d4-9aa7-4a05-9805-ba3545ab3c4c@astrology
+UID:⭐SolarReturn—Sagittarius-20251209@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20251209
-DTEND;VALUE=DATE:20251210
 SUMMARY:⭐ Solar Return — Sagittarius
-DESCRIPTION:Highlight: Personal (⭐) — this directly hits your chart\nCollective: Not collective.\nPersonal: Personal new year. Emphasizes identity, voice, visibility.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Not collective.\nPersonal: Personal new year. Emphasizes identity, voice, visibility.\nThemes: identity, renewal, self-expression, purpose
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:b83e5cf6-0d00-42cc-865d-2dcc18e0bd65@astrology
+UID:SaturnRetrogradeends—Pisces-20251210@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20251210
-DTEND;VALUE=DATE:20251211
 SUMMARY:Saturn Retrograde ends — Pisces
-DESCRIPTION:Collective: Lessons in compassion, boundaries, and sacrifice move forward again.\nPersonal: Squares Sag placements → lessons about responsibility and service resume.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Lessons in compassion, boundaries, and sacrifice move forward again.\nPersonal: Squares Sag placements → lessons about responsibility and service resume.\nThemes: responsibility, service, compassion, structure
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:b8140e52-c24f-42ef-ad8f-943978e3b74c@astrology
+UID:PlutoDirect—Capricorn-20251211@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20251211
-DTEND;VALUE=DATE:20251212
 SUMMARY:Pluto Direct — Capricorn
-DESCRIPTION:Collective: Collective authority, power, and systemic themes move forward.\nPersonal: Winds down Capricorn-era lessons before Aquarius ingress fully sets in.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective authority, power, and systemic themes move forward.\nPersonal: Winds down Capricorn-era lessons before Aquarius ingress fully sets in.\nThemes: authority, power, transformation, closure
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:dde613bb-6e3e-481b-ba46-a50ee295311c@astrology
+UID:MercuryRetrogradeends—Sagittarius-20251215@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20251215
-DTEND;VALUE=DATE:20251216
 SUMMARY:Mercury Retrograde ends — Sagittarius
-DESCRIPTION:Collective: Lingering confusion starts to clear.\nPersonal: Relief as it moves off your Sag stellium → energy and clarity return.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Lingering confusion starts to clear.\nPersonal: Relief as it moves off your Sag stellium → energy and clarity return.\nThemes: clarity, forward motion, regrouping
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:bd4ea48e-3e94-41db-ada8-f2e5bb1a8d10@astrology
+UID:FullMoon—Gemini-20251219@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20251219
-DTEND;VALUE=DATE:20251220
 SUMMARY:Full Moon — Gemini
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:adc07886-dbdd-4468-bcd4-abde0ca662f8@astrology
+UID:JupiterDirect—Gemini-20251230@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20251230
-DTEND;VALUE=DATE:20251231
 SUMMARY:Jupiter Direct — Gemini
-DESCRIPTION:Collective: Momentum resumes in learning, networks, growth.\nPersonal: Boosts Sag placements → renewed optimism.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Momentum resumes in learning, networks, growth.\nPersonal: Boosts Sag placements → renewed optimism.\nThemes: growth, clarity, optimism, expansion
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:ec10b701-a4c0-406a-8ce7-a68cac72272f@astrology
+UID:NewMoon—Capricorn-20260103@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260103
-DTEND;VALUE=DATE:20260104
 SUMMARY:New Moon — Capricorn
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:5c037d7e-97cc-4b50-a73e-a31b738f803a@astrology
+UID:SaturnRetrogradebegins—Aries-20260106@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260106
-DTEND;VALUE=DATE:20260107
 SUMMARY:Saturn Retrograde begins — Aries
-DESCRIPTION:Collective: Collective rethinking of independence, responsibility, boundaries.\nPersonal: Squares Sag stellium → pressure eases, lessons repeat.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective rethinking of independence, responsibility, boundaries.\nPersonal: Squares Sag stellium → pressure eases, lessons repeat.\nThemes: responsibility, review, independence, pressure
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:e1b4024c-edf4-4ee4-ac02-cca0c7737e97@astrology
+UID:FullMoon—Cancer-20260117@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260117
-DTEND;VALUE=DATE:20260118
 SUMMARY:Full Moon — Cancer
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:617af95f-bbde-4e10-a82a-e99d51406b53@astrology
+UID:SaturnDirect—Aries-20260129@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260129
-DTEND;VALUE=DATE:20260130
 SUMMARY:Saturn Direct — Aries
-DESCRIPTION:Collective: Momentum returns in independence and discipline lessons.\nPersonal: Squares Sag stellium → challenges crystallize into progress.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Momentum returns in independence and discipline lessons.\nPersonal: Squares Sag stellium → challenges crystallize into progress.\nThemes: progress, responsibility, independence, growth
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:64c0d6a7-9593-4e1c-ba25-5d8761367664@astrology
+UID:NewMoon—Aquarius-20260202@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260202
-DTEND;VALUE=DATE:20260203
 SUMMARY:New Moon — Aquarius
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:546d0343-21e3-4927-ab9e-7f97f7ff59fc@astrology
+UID:FullMoon—Leo-20260216@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260216
-DTEND;VALUE=DATE:20260217
 SUMMARY:Full Moon — Leo
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:c63092ca-1dfe-466b-b22d-288a641ccc21@astrology
+UID:MercuryRetrogradebegins—Pisces-20260225@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260225
-DTEND;VALUE=DATE:20260226
 SUMMARY:Mercury Retrograde begins — Pisces
-DESCRIPTION:Collective: Collective confusion in spirituality, boundaries, compassion.\nPersonal: Squares Sag placements slightly → hazy identity period.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective confusion in spirituality, boundaries, compassion.\nPersonal: Squares Sag placements slightly → hazy identity period.\nThemes: confusion, compassion, dreams, spirituality
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:6ea6b821-6969-4458-92a5-5552e39627f8@astrology
+UID:NewMoon—Pisces-20260303@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260303
-DTEND;VALUE=DATE:20260304
 SUMMARY:New Moon — Pisces
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:1f219fd1-5c70-43cf-9e9c-4c1a40055f9c@astrology
+UID:FullMoon—Virgo-20260317@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260317
-DTEND;VALUE=DATE:20260318
 SUMMARY:Full Moon — Virgo
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:27d2cfc0-e4cf-4409-adc6-31a71c03a0d5@astrology
+UID:MercuryRetrogradeends—Pisces-20260320@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260320
-DTEND;VALUE=DATE:20260321
 SUMMARY:Mercury Retrograde ends — Pisces
-DESCRIPTION:Collective: Clarity returns in emotional, spiritual matters.\nPersonal: Supportive reset for Sag placements.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Clarity returns in emotional, spiritual matters.\nPersonal: Supportive reset for Sag placements.\nThemes: clarity, spirituality, reset, compassion
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:005ca281-d178-446a-8c4a-4f3f28406ce3@astrology
+UID:⭐LunarEclipse—Libra-20260329@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260329
-DTEND;VALUE=DATE:20260330
 SUMMARY:⭐ Lunar Eclipse — Libra
-DESCRIPTION:Highlight: Personal (⭐) — this directly hits your chart\nCollective: Turning points in relationships, fairness, diplomacy.\nPersonal: Conjunct your Libra Moon → major emotional reset in friendships.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Turning points in relationships, fairness, diplomacy.\nPersonal: Conjunct your Libra Moon → major emotional reset in friendships.\nThemes: relationship shifts, endings, fairness, emotional intensity
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:cee38408-e58a-49d3-9a0a-170d0421c048@astrology
+UID:SaturnentersAries-20260401@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260401
-DTEND;VALUE=DATE:20260402
 SUMMARY:Saturn enters Aries
-DESCRIPTION:Collective: New cycle of responsibility and pressure around independence.\nPersonal: Squares Sag stellium → lessons in discipline, boundaries.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: New cycle of responsibility and pressure around independence.\nPersonal: Squares Sag stellium → lessons in discipline, boundaries.\nThemes: responsibility, maturity, independence, discipline
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:b5cbb227-0bbd-4338-8442-fd49298fd732@astrology
+UID:NewMoon—Aries-20260402@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260402
-DTEND;VALUE=DATE:20260403
 SUMMARY:New Moon — Aries
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:c605b9e7-72c6-47f6-a2ba-f1df9a2bfa15@astrology
+UID:FullMoon—Libra-20260416@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260416
-DTEND;VALUE=DATE:20260417
 SUMMARY:Full Moon — Libra
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:4d1c5fb8-824e-4b42-a60f-7d4c64fecf30@astrology
+UID:NewMoon—Taurus-20260501@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260501
-DTEND;VALUE=DATE:20260502
 SUMMARY:New Moon — Taurus
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:77a70c94-9248-4778-89db-9401ce350cd8@astrology
+UID:PlutoRetrogradebegins—Aquarius-20260502@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260502
-DTEND;VALUE=DATE:20260503
 SUMMARY:Pluto Retrograde begins — Aquarius
-DESCRIPTION:Collective: Collective review of technology, power, and transformation in society.\nPersonal: Opposes Sag Ascendant → deep inner shifts around self-image and direction.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective review of technology, power, and transformation in society.\nPersonal: Opposes Sag Ascendant → deep inner shifts around self-image and direction.\nThemes: power, technology, review, transformation
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:07eeec2b-e878-45f2-b2c5-07fe1a1b397c@astrology
+UID:FullMoon—Scorpio-20260515@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260515
-DTEND;VALUE=DATE:20260516
 SUMMARY:Full Moon — Scorpio
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:a4750a4e-4c55-4304-bbbf-49e133c1bfb4@astrology
+UID:JupiterentersCancer-20260520@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260520
-DTEND;VALUE=DATE:20260521
 SUMMARY:Jupiter enters Cancer
-DESCRIPTION:Collective: Expansion of focus on home, family, belonging.\nPersonal: Squares Sag Ascendant → stretched between public and private life.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Expansion of focus on home, family, belonging.\nPersonal: Squares Sag Ascendant → stretched between public and private life.\nThemes: growth, family, belonging, overextension
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:5db9673f-6dec-4177-939a-4b088f2da4c8@astrology
+UID:NewMoon—Gemini-20260531@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260531
-DTEND;VALUE=DATE:20260601
 SUMMARY:New Moon — Gemini
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:1af21757-0bef-4a40-92fd-70f6e4792edc@astrology
+UID:JupiterRetrogradebegins—Cancer-20260601@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260601
-DTEND;VALUE=DATE:20260602
 SUMMARY:Jupiter Retrograde begins — Cancer
-DESCRIPTION:Collective: Collective pause in growth around home, family, and belonging.\nPersonal: Squares Sag Ascendant → tensions balancing public and private life.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective pause in growth around home, family, and belonging.\nPersonal: Squares Sag Ascendant → tensions balancing public and private life.\nThemes: family, belonging, pause, growth
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:14a65588-4cde-40c1-afcf-3114c2eef7c8@astrology
+UID:MercuryRetrogradebegins—Gemini-20260605@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260605
-DTEND;VALUE=DATE:20260606
 SUMMARY:Mercury Retrograde begins — Gemini
-DESCRIPTION:Collective: Miscommunications in contracts, siblings, travel.\nPersonal: Opposes Sag stellium → mix-ups with plans.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Miscommunications in contracts, siblings, travel.\nPersonal: Opposes Sag stellium → mix-ups with plans.\nThemes: confusion, delays, travel, speech
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:bed4908e-67f6-4109-8c98-cd1522ff8810@astrology
+UID:FullMoon—Sagittarius-20260614@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260614
-DTEND;VALUE=DATE:20260615
 SUMMARY:Full Moon — Sagittarius
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:89706fb6-0a2e-4068-add4-470d2e05a546@astrology
+UID:NewMoon—Cancer-20260629@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260629
-DTEND;VALUE=DATE:20260630
 SUMMARY:New Moon — Cancer
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:e8cb6477-08b4-4cfd-aebc-ae3c37010647@astrology
+UID:MercuryRetrogradeends—Gemini-20260629@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260629
-DTEND;VALUE=DATE:20260630
 SUMMARY:Mercury Retrograde ends — Gemini
-DESCRIPTION:Collective: Clarity returns slowly in contracts and plans.\nPersonal: Opposition eases → misunderstandings clear.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Clarity returns slowly in contracts and plans.\nPersonal: Opposition eases → misunderstandings clear.\nThemes: resolution, clarity, reset, communication
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:3ad07f60-4dd9-49ee-9bb4-cca7a8e6858d@astrology
+UID:NeptuneRetrogradebegins—Pisces-20260630@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260630
-DTEND;VALUE=DATE:20260701
 SUMMARY:Neptune Retrograde begins — Pisces
-DESCRIPTION:Collective: Collective fog turns inward; ideals and illusions under review.\nPersonal: Squares Sag Sun → questioning beliefs and purpose.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective fog turns inward; ideals and illusions under review.\nPersonal: Squares Sag Sun → questioning beliefs and purpose.\nThemes: dreams, review, ideals, identity
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:79ee7dad-6ea6-4a30-8721-1255df1a32df@astrology
+UID:FullMoon—Capricorn-20260713@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260713
-DTEND;VALUE=DATE:20260714
 SUMMARY:Full Moon — Capricorn
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:c5beb597-7ecb-439a-b15b-722b949ddfb1@astrology
+UID:VenusRetrogradebegins—Leo-20260723@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260723
-DTEND;VALUE=DATE:20260724
 SUMMARY:Venus Retrograde begins — Leo
-DESCRIPTION:Collective: Rethinking of love, creativity, pride. Old flames may return.\nPersonal: Trines Sag planets → reflective time in romance, expression.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Rethinking of love, creativity, pride. Old flames may return.\nPersonal: Trines Sag planets → reflective time in romance, expression.\nThemes: love, creativity, reevaluation, past returns
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:2dde2f67-1875-4c4e-9c22-229f0feefbf3@astrology
+UID:NewMoon—Leo-20260728@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260728
-DTEND;VALUE=DATE:20260729
 SUMMARY:New Moon — Leo
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:82f707a7-2985-4da3-8618-31796e2a4430@astrology
+UID:FullMoon—Aquarius-20260812@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260812
-DTEND;VALUE=DATE:20260813
 SUMMARY:Full Moon — Aquarius
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:2fa7ec42-93c8-466b-94a6-577622c90866@astrology
+UID:NewMoon—Virgo-20260827@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260827
-DTEND;VALUE=DATE:20260828
 SUMMARY:New Moon — Virgo
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:e93af4ee-221a-4bba-98f0-224df6e605a3@astrology
+UID:SaturnRetrogradebegins—Aries-20260901@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20260902
 SUMMARY:Saturn Retrograde begins — Aries
-DESCRIPTION:Collective: Collective review of independence, responsibility, and self-assertion.\nPersonal: Squares Sag stellium → lessons repeat around self-discipline.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective review of independence, responsibility, and self-assertion.\nPersonal: Squares Sag stellium → lessons repeat around self-discipline.\nThemes: independence, responsibility, review, discipline
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:0f11db69-39b8-4f54-9f35-8af7c35bfff4@astrology
+UID:VenusRetrogradeends—Leo-20260904@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260904
-DTEND;VALUE=DATE:20260905
 SUMMARY:Venus Retrograde ends — Leo
-DESCRIPTION:Collective: Clarity on values, love, pride returns.\nPersonal: Supports creative expression, solidifies desires.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Clarity on values, love, pride returns.\nPersonal: Supports creative expression, solidifies desires.\nThemes: commitment, clarity, self-worth, love
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:7a8196a2-13a1-4de5-999b-0c679be77c9a@astrology
+UID:FullMoon—Pisces-20260911@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260911
-DTEND;VALUE=DATE:20260912
 SUMMARY:Full Moon — Pisces
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:5d40f58e-3863-4d2f-b4ad-a62794dcb161@astrology
+UID:✨SolarEclipse—Virgo-20260917@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260917
-DTEND;VALUE=DATE:20260918
 SUMMARY:✨ Solar Eclipse — Virgo
-DESCRIPTION:Highlight: Collective (✨) — everyone feels this\nCollective: Shift around health, service, routines.\nPersonal: Squares Sag stellium → challenges balancing health, commitments.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Shift around health, service, routines.\nPersonal: Squares Sag stellium → challenges balancing health, commitments.\nThemes: health, work, daily life, service
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:679af992-fd51-4ab9-a1f3-3416adf1e396@astrology
+UID:NewMoon—Libra-20260925@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260925
-DTEND;VALUE=DATE:20260926
 SUMMARY:New Moon — Libra
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:52060ed2-3d44-438c-863c-f2f5bcff9866@astrology
+UID:MercuryRetrogradebegins—Libra-20260928@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20260928
-DTEND;VALUE=DATE:20260929
 SUMMARY:Mercury Retrograde begins — Libra
-DESCRIPTION:Collective: Misunderstandings in partnerships, fairness issues.\nPersonal: Conjunct Libra Moon → emotional miscommunications.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Misunderstandings in partnerships, fairness issues.\nPersonal: Conjunct Libra Moon → emotional miscommunications.\nThemes: relationships, fairness, communication, delays
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:cdf38696-e7e9-45fd-96b2-f4d764653047@astrology
+UID:✨LunarEclipse—Aries-20261002@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20261002
-DTEND;VALUE=DATE:20261003
 SUMMARY:✨ Lunar Eclipse — Aries
-DESCRIPTION:Highlight: Collective (✨) — everyone feels this\nCollective: Collective intensity around independence, assertion, conflict.\nPersonal: Opposes Libra Moon → group tensions flare, emotions tested.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective intensity around independence, assertion, conflict.\nPersonal: Opposes Libra Moon → group tensions flare, emotions tested.\nThemes: conflict, independence, emotional breaks, courage
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:ff9d59e5-e105-4fc7-84cd-c755c0380642@astrology
+UID:UranusDirect—Gemini-20261003@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20261003
-DTEND;VALUE=DATE:20261004
 SUMMARY:Uranus Direct — Gemini
-DESCRIPTION:Collective: Forward progress in collective communication, tech, and networks.\nPersonal: Opposition to Sag stellium → sudden clarity or shifts in expression.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Forward progress in collective communication, tech, and networks.\nPersonal: Opposition to Sag stellium → sudden clarity or shifts in expression.\nThemes: communication, clarity, networks, breakthroughs
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:7e80043a-e67c-4dc8-b8f6-a0e83fa615c7@astrology
+UID:FullMoon—Aries-20261010@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20261010
-DTEND;VALUE=DATE:20261011
 SUMMARY:Full Moon — Aries
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:0ca5d7b2-758c-4405-80e9-40cba5f9ccfa@astrology
+UID:PlutoDirect—Capricorn-20261011@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20261011
-DTEND;VALUE=DATE:20261012
 SUMMARY:Pluto Direct — Capricorn
-DESCRIPTION:Collective: Systemic and authority themes push forward as Capricorn era winds down.\nPersonal: Pressure around work/authority structures lifts slightly.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Systemic and authority themes push forward as Capricorn era winds down.\nPersonal: Pressure around work/authority structures lifts slightly.\nThemes: authority, systems, closure, transformation
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:bbec040f-4b00-4ab6-8239-dfa2909bb273@astrology
+UID:MercuryRetrogradebegins—Scorpio-20261014@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20261014
-DTEND;VALUE=DATE:20261015
 SUMMARY:Mercury Retrograde begins — Scorpio
-DESCRIPTION:Collective: Mix-ups in intimacy, shared resources, emotions.\nPersonal: Squares Sag placements → trust, resources tensions.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Mix-ups in intimacy, shared resources, emotions.\nPersonal: Squares Sag placements → trust, resources tensions.\nThemes: trust, intimacy, finance, confusion
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:81a4e39b-8f07-4ae9-beaf-319e88dbb3e5@astrology
+UID:MercuryRetrogradeends—Virgo-20261018@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20261018
-DTEND;VALUE=DATE:20261019
 SUMMARY:Mercury Retrograde ends — Virgo
-DESCRIPTION:Collective: Clarity returns in health and service matters.\nPersonal: Squares Sag stellium → focus shifts back to balance.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Clarity returns in health and service matters.\nPersonal: Squares Sag stellium → focus shifts back to balance.\nThemes: clarity, health, service, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:81326cc4-000e-49f8-959b-f173201bbfb5@astrology
+UID:NewMoon—Scorpio-20261025@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
 SUMMARY:New Moon — Scorpio
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:e3934ec3-028d-4ea7-bbe5-f19f42ce57f5@astrology
+UID:MercuryRetrogradeends—Libra-20261103@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20261103
-DTEND;VALUE=DATE:20261104
 SUMMARY:Mercury Retrograde ends — Libra
-DESCRIPTION:Collective: Balance returns in relationships, partnerships.\nPersonal: Relief for Libra Moon → clarity in friendships, groups.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Balance returns in relationships, partnerships.\nPersonal: Relief for Libra Moon → clarity in friendships, groups.\nThemes: balance, resolution, relationships, clarity
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:7aa46ec5-043c-4fdd-a06d-0580d5fc5fde@astrology
+UID:FullMoon—Taurus-20261108@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
 SUMMARY:Full Moon — Taurus
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:38d688cd-8f6e-4dc9-993d-3ffb7f9c18af@astrology
+UID:NewMoon—Sagittarius-20261123@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20261123
-DTEND;VALUE=DATE:20261124
 SUMMARY:New Moon — Sagittarius
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:95702b6d-9107-4b06-ae01-688e7e78ec74@astrology
+UID:NeptuneDirect—Pisces-20261124@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
 SUMMARY:Neptune Direct — Pisces
-DESCRIPTION:Collective: Spirituality and ideals move forward, less fog in collective mood.\nPersonal: Squares Sag Sun → clearer sense of identity after confusion.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Spirituality and ideals move forward, less fog in collective mood.\nPersonal: Squares Sag Sun → clearer sense of identity after confusion.\nThemes: clarity, spirituality, ideals, healing
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:00a679c0-8b4f-4936-9691-f8905a9865bb@astrology
+UID:JupiterDirect—Cancer-20261202@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20261202
-DTEND;VALUE=DATE:20261203
 SUMMARY:Jupiter Direct — Cancer
-DESCRIPTION:Collective: Expansion resumes in family, protection, and emotional security.\nPersonal: Squares Sag Ascendant → growth stabilizes.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Expansion resumes in family, protection, and emotional security.\nPersonal: Squares Sag Ascendant → growth stabilizes.\nThemes: growth, family, stability, belonging
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:501753e0-7be1-4ab6-b3d4-5f98ee460c9e@astrology
+UID:FullMoon—Gemini-20261207@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20261207
-DTEND;VALUE=DATE:20261208
 SUMMARY:Full Moon — Gemini
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:c305a420-794f-4aad-83e4-b271945555f9@astrology
+UID:⭐SolarReturn—Sagittarius-20261209@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20261209
-DTEND;VALUE=DATE:20261210
 SUMMARY:⭐ Solar Return — Sagittarius
-DESCRIPTION:Highlight: Personal (⭐) — this directly hits your chart\nCollective: Not collective.\nPersonal: Annual reset point. Self-image, direction, visibility.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Not collective.\nPersonal: Annual reset point. Self-image, direction, visibility.\nThemes: identity, renewal, self-expression, purpose
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:41370075-db8b-497f-a056-26ad34f0c43a@astrology
+UID:SaturnDirect—Aries-20261210@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20261210
-DTEND;VALUE=DATE:20261211
 SUMMARY:Saturn Direct — Aries
-DESCRIPTION:Collective: Responsibilities and structures in independence and identity move forward.\nPersonal: Squares Sag stellium → growth through discipline returns.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Responsibilities and structures in independence and identity move forward.\nPersonal: Squares Sag stellium → growth through discipline returns.\nThemes: responsibility, progress, maturity, independence
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:8871b11f-df6c-40bb-b4a2-21fe5deba6c1@astrology
+UID:MercuryRetrogradebegins—Capricorn-20261214@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20261214
-DTEND;VALUE=DATE:20261215
 SUMMARY:Mercury Retrograde begins — Capricorn
-DESCRIPTION:Collective: Slowdowns in business, government, structures.\nPersonal: Conjunct Sag natal Venus/Mercury → rethink values, expression.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Slowdowns in business, government, structures.\nPersonal: Conjunct Sag natal Venus/Mercury → rethink values, expression.\nThemes: career, structure, rethinking, delays
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:1976d633-70d5-4d16-bc73-e3ce008337ce@astrology
+UID:NewMoon—Capricorn-20261222@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20261222
-DTEND;VALUE=DATE:20261223
 SUMMARY:New Moon — Capricorn
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:d5996349-7793-4dab-904f-782ed80b9629@astrology
+UID:JupiterRetrogradebegins—Cancer-20261229@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20261229
-DTEND;VALUE=DATE:20261230
 SUMMARY:Jupiter Retrograde begins — Cancer
-DESCRIPTION:Collective: Pause in family, belonging, security.\nPersonal: Squares Sag Ascendant → tension balancing home and career.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Pause in family, belonging, security.\nPersonal: Squares Sag Ascendant → tension balancing home and career.\nThemes: pause, family, belonging, security
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:3388413b-0f50-4a70-ac86-32db3160590c@astrology
+UID:MercuryRetrogradeends—Sagittarius/Capricorn-20270104@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270104
-DTEND;VALUE=DATE:20270105
 SUMMARY:Mercury Retrograde ends — Sagittarius/Capricorn
-DESCRIPTION:Collective: Momentum resumes in communication, travel, business.\nPersonal: Relief across Sag/Capricorn placements → stalled plans progress.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Momentum resumes in communication, travel, business.\nPersonal: Relief across Sag/Capricorn placements → stalled plans progress.\nThemes: clarity, travel, progress, systems
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:87f164af-1cd4-4649-8316-92a3b6ab0348@astrology
+UID:FullMoon—Cancer-20270106@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270106
-DTEND;VALUE=DATE:20270107
 SUMMARY:Full Moon — Cancer
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:6716fce4-271f-4c40-84fe-967ec0626589@astrology
+UID:JupiterDirect—Cancer-20270120@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270120
-DTEND;VALUE=DATE:20270121
 SUMMARY:Jupiter Direct — Cancer
-DESCRIPTION:Collective: Growth resumes in family, belonging, security.\nPersonal: Squares Sag Ascendant → balance stabilizes.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Growth resumes in family, belonging, security.\nPersonal: Squares Sag Ascendant → balance stabilizes.\nThemes: growth, clarity, family, belonging
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:c5029241-763a-4029-8b67-456289e42c2b@astrology
+UID:NewMoon—Aquarius-20270121@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270121
-DTEND;VALUE=DATE:20270122
 SUMMARY:New Moon — Aquarius
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:884c393e-9467-4b77-9218-ec7950ee4de5@astrology
+UID:FullMoon—Leo-20270205@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270205
-DTEND;VALUE=DATE:20270206
 SUMMARY:Full Moon — Leo
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:49e95677-a090-4307-926f-4a07ec9c339f@astrology
+UID:MercuryRetrogradebegins—Aquarius-20270207@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270207
-DTEND;VALUE=DATE:20270208
 SUMMARY:Mercury Retrograde begins — Aquarius
-DESCRIPTION:Collective: Confusion in groups, tech, communication.\nPersonal: Squares Sag slightly → group/work miscommunications.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Confusion in groups, tech, communication.\nPersonal: Squares Sag slightly → group/work miscommunications.\nThemes: groups, technology, confusion, rethink
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:e6b1c8b8-941e-41ed-908d-29535dbb059f@astrology
+UID:NewMoon—Pisces-20270219@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270219
-DTEND;VALUE=DATE:20270220
 SUMMARY:New Moon — Pisces
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:a6bc2a0a-cdc0-45e5-a53c-4adef2b6c795@astrology
+UID:✨Saturn–Neptuneconjunction—Aries-20270220@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270220
-DTEND;VALUE=DATE:20270221
 SUMMARY:✨ Saturn–Neptune conjunction — Aries
-DESCRIPTION:Highlight: Collective (✨) — everyone feels this\nCollective: Dissolution of boundaries between reality and ideals.\nPersonal: Squares Sag stellium → test of faith, identity confusion.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Dissolution of boundaries between reality and ideals.\nPersonal: Squares Sag stellium → test of faith, identity confusion.\nThemes: spirituality, confusion, restructuring, vision
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:1c232aba-b22d-41be-9715-ef9e8d9c4043@astrology
+UID:MercuryRetrogradeends—Aquarius-20270226@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270226
-DTEND;VALUE=DATE:20270227
 SUMMARY:Mercury Retrograde ends — Aquarius
-DESCRIPTION:Collective: Clarity returns in group communication.\nPersonal: Sag placements ease.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Clarity returns in group communication.\nPersonal: Sag placements ease.\nThemes: clarity, groups, reset, communication
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:8df4615d-ee15-4bcd-9c06-989721980528@astrology
+UID:FullMoon—Virgo-20270306@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270306
-DTEND;VALUE=DATE:20270307
 SUMMARY:Full Moon — Virgo
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:9d696173-ae23-40bd-81c4-56f5c8f0cd63@astrology
+UID:✨SolarEclipse—Pisces-20270309@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270309
-DTEND;VALUE=DATE:20270310
 SUMMARY:✨ Solar Eclipse — Pisces
-DESCRIPTION:Highlight: Collective (✨) — everyone feels this\nCollective: Fog, dissolving boundaries, sensitivity.\nPersonal: Squares Sag Sun → identity feels diffused.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Fog, dissolving boundaries, sensitivity.\nPersonal: Squares Sag Sun → identity feels diffused.\nThemes: dissolution, sensitivity, rest, overwhelm
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:0f7e9800-c1f6-4fe5-9967-e8632bdc265d@astrology
+UID:NewMoon—Aries-20270322@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270322
-DTEND;VALUE=DATE:20270323
 SUMMARY:New Moon — Aries
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:1200566a-94d3-4dc0-a231-5a07db72a479@astrology
+UID:⭐SolarEclipse—Aries-20270402@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270402
-DTEND;VALUE=DATE:20270403
 SUMMARY:⭐ Solar Eclipse — Aries
-DESCRIPTION:Highlight: Personal (⭐) — this directly hits your chart\nCollective: Collective emphasis on independence, conflict, courage.\nPersonal: Opposes Libra Moon → emotional tests in groups.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emphasis on independence, conflict, courage.\nPersonal: Opposes Libra Moon → emotional tests in groups.\nThemes: independence, conflict, courage, turning point
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:edd56aa8-ca7a-4ed3-895d-e2e95040ed9b@astrology
+UID:FullMoon—Libra-20270406@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270406
-DTEND;VALUE=DATE:20270407
 SUMMARY:Full Moon — Libra
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:2ebe2ce8-7efb-48ec-9b2f-5af768f2badc@astrology
+UID:NewMoon—Taurus-20270421@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270421
-DTEND;VALUE=DATE:20270422
 SUMMARY:New Moon — Taurus
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:86c6046f-4e18-4b5d-bbae-22b6c52886b2@astrology
+UID:FullMoon—Scorpio-20270506@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270506
-DTEND;VALUE=DATE:20270507
 SUMMARY:Full Moon — Scorpio
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:d958222f-d3a8-49f1-a771-7f2b98d98a64@astrology
+UID:JupiterentersLeo-20270514@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270514
-DTEND;VALUE=DATE:20270515
 SUMMARY:Jupiter enters Leo
-DESCRIPTION:Collective: Expansion in creativity, pride, leadership.\nPersonal: Trines Sag Sun/Ascendant → uplifting, energizing.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Expansion in creativity, pride, leadership.\nPersonal: Trines Sag Sun/Ascendant → uplifting, energizing.\nThemes: growth, creativity, generosity, leadership
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:91de4377-f5cd-4dea-b47f-b8fa72e97fb5@astrology
+UID:NewMoon—Gemini-20270521@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270521
-DTEND;VALUE=DATE:20270522
 SUMMARY:New Moon — Gemini
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:78954f4a-e5a5-4460-961a-13d06872c9c8@astrology
+UID:UranusRetrogradebegins—Gemini-20270602@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270602
-DTEND;VALUE=DATE:20270603
 SUMMARY:Uranus Retrograde begins — Gemini
-DESCRIPTION:Collective: Collective rethink of innovation, communication, and networks.\nPersonal: Opposes Sag stellium → re-evaluation of ideas, connections.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective rethink of innovation, communication, and networks.\nPersonal: Opposes Sag stellium → re-evaluation of ideas, connections.\nThemes: rethinking, communication, networks, innovation
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:4b2a40fe-b397-4f69-b74d-a7411e173a0a@astrology
+UID:FullMoon—Sagittarius-20270605@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270605
-DTEND;VALUE=DATE:20270606
 SUMMARY:Full Moon — Sagittarius
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:dddee98e-ed3b-4147-9522-f88be4b23007@astrology
+UID:MercuryRetrogradebegins—Gemini-20270610@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270610
-DTEND;VALUE=DATE:20270611
 SUMMARY:Mercury Retrograde begins — Gemini
-DESCRIPTION:Collective: Confusion in communication, learning, travel.\nPersonal: Opposes Sag stellium → stressful for clarity, self-expression.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Confusion in communication, learning, travel.\nPersonal: Opposes Sag stellium → stressful for clarity, self-expression.\nThemes: confusion, delay, missteps, communication
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:02578850-1148-4d77-b411-a0d63e81c100@astrology
+UID:NewMoon—Cancer-20270620@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270620
-DTEND;VALUE=DATE:20270621
 SUMMARY:New Moon — Cancer
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:eba470ba-0957-4686-ae5c-39a702ab2491@astrology
+UID:MercuryRetrogradeends—Gemini-20270629@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270629
-DTEND;VALUE=DATE:20270630
 SUMMARY:Mercury Retrograde ends — Gemini
-DESCRIPTION:Collective: Clarity returns in learning, travel.\nPersonal: Opposition eases → Sag clarity returns.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Clarity returns in learning, travel.\nPersonal: Opposition eases → Sag clarity returns.\nThemes: clarity, travel, reset, communication
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:433c46bc-4c24-4fa0-86c0-d465e7a21bc2@astrology
+UID:NeptuneRetrogradebegins—Aries-20270701@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270701
-DTEND;VALUE=DATE:20270702
 SUMMARY:Neptune Retrograde begins — Aries
-DESCRIPTION:Collective: Collective ideals and dreams turned inward for review.\nPersonal: Squares Sag stellium → inner questioning of identity and belief.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective ideals and dreams turned inward for review.\nPersonal: Squares Sag stellium → inner questioning of identity and belief.\nThemes: dreams, review, ideals, identity
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:bb65b237-ece2-4beb-8ff9-70dd05ce34c7@astrology
+UID:MarsRetrogradebegins—Cancer-20270701@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270701
-DTEND;VALUE=DATE:20270702
 SUMMARY:Mars Retrograde begins — Cancer
-DESCRIPTION:Collective: Frustration around home, family, security.\nPersonal: Squares Sag placements → stress balancing independence.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Frustration around home, family, security.\nPersonal: Squares Sag placements → stress balancing independence.\nThemes: frustration, family, security, energy inward
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:ed9113f8-f3f0-472a-947e-432a054bd97e@astrology
+UID:MercuryRetrogradeends—Cancer-20270704@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270704
-DTEND;VALUE=DATE:20270705
 SUMMARY:Mercury Retrograde ends — Cancer
-DESCRIPTION:Collective: Emotional clarity returns, communication improves at home.\nPersonal: Helps Sag balance home vs. self demands.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Emotional clarity returns, communication improves at home.\nPersonal: Helps Sag balance home vs. self demands.\nThemes: clarity, family, home, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:fb7ceff6-059c-478f-829e-ac93af4bfae0@astrology
+UID:FullMoon—Capricorn-20270705@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270705
-DTEND;VALUE=DATE:20270706
 SUMMARY:Full Moon — Capricorn
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:ab65f99c-06a2-495c-a6e1-d890b123c488@astrology
+UID:NewMoon—Leo-20270720@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270720
-DTEND;VALUE=DATE:20270721
 SUMMARY:New Moon — Leo
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:7ad5764d-70e7-4a2d-a4b2-a732275a8928@astrology
+UID:PlutoRetrogradebegins—Aquarius-20270802@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270802
-DTEND;VALUE=DATE:20270803
 SUMMARY:Pluto Retrograde begins — Aquarius
-DESCRIPTION:Collective: Collective review of technology, power, and transformation in society.\nPersonal: Opposes Sag Ascendant → deep personal identity changes.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective review of technology, power, and transformation in society.\nPersonal: Opposes Sag Ascendant → deep personal identity changes.\nThemes: power, technology, review, transformation
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:89364291-6b38-4f22-bb47-f821204d2088@astrology
+UID:FullMoon—Aquarius-20270804@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270804
-DTEND;VALUE=DATE:20270805
 SUMMARY:Full Moon — Aquarius
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:c68013fe-eff3-42fe-ae9b-c8f9f0cbdbb3@astrology
+UID:NewMoon—Virgo-20270819@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270819
-DTEND;VALUE=DATE:20270820
 SUMMARY:New Moon — Virgo
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:cced89e3-eac2-4bdb-9597-ff0948452b5c@astrology
+UID:MarsRetrogradeends—Cancer-20270823@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270823
-DTEND;VALUE=DATE:20270824
 SUMMARY:Mars Retrograde ends — Cancer
-DESCRIPTION:Collective: Forward action returns in home, family.\nPersonal: Sag placements relieved.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Forward action returns in home, family.\nPersonal: Sag placements relieved.\nThemes: action, home, clarity, release
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:88702db4-aa76-4376-9e6a-c0f8532da9e3@astrology
+UID:FullMoon—Pisces-20270903@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270903
-DTEND;VALUE=DATE:20270904
 SUMMARY:Full Moon — Pisces
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:84ae0db7-1318-4529-b024-665ada1a30c6@astrology
+UID:✨LunarEclipse—Pisces-20270916@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270916
-DTEND;VALUE=DATE:20270917
 SUMMARY:✨ Lunar Eclipse — Pisces
-DESCRIPTION:Highlight: Collective (✨) — everyone feels this\nCollective: Dreaminess, emotional flooding, lack of clarity.\nPersonal: Squares Sag Sun → tiredness, self-doubt.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Dreaminess, emotional flooding, lack of clarity.\nPersonal: Squares Sag Sun → tiredness, self-doubt.\nThemes: dreams, confusion, endings, overwhelm
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:8a701e16-4a07-4b80-9f4a-d35088026f0d@astrology
+UID:NewMoon—Libra-20270917@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20270917
-DTEND;VALUE=DATE:20270918
 SUMMARY:New Moon — Libra
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:278c8c27-e711-4c57-86f4-e1b471164ea9@astrology
+UID:FullMoon—Aries-20271002@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20271002
-DTEND;VALUE=DATE:20271003
 SUMMARY:Full Moon — Aries
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:ee418561-da90-405f-b420-0148e3ecf882@astrology
+UID:✨SolarEclipse—Libra-20271003@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20271003
-DTEND;VALUE=DATE:20271004
 SUMMARY:✨ Solar Eclipse — Libra
-DESCRIPTION:Highlight: Collective (✨) — everyone feels this\nCollective: Focus on justice, fairness, partnerships.\nPersonal: Conjunct Libra Moon → personal reset in groups.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Focus on justice, fairness, partnerships.\nPersonal: Conjunct Libra Moon → personal reset in groups.\nThemes: justice, fairness, partnership, emotional reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:e20a4132-0da5-49da-963d-08bea2dc067c@astrology
+UID:NewMoon—Scorpio-20271017@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20271017
-DTEND;VALUE=DATE:20271018
 SUMMARY:New Moon — Scorpio
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:7de68813-639b-487e-b079-2059da304137@astrology
+UID:MercuryRetrogradebegins—Scorpio-20271024@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20271024
-DTEND;VALUE=DATE:20271025
 SUMMARY:Mercury Retrograde begins — Scorpio
-DESCRIPTION:Collective: Miscommunication in intimacy, finance.\nPersonal: Squares Sag placements → stressful trust issues.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Miscommunication in intimacy, finance.\nPersonal: Squares Sag placements → stressful trust issues.\nThemes: finance, intimacy, confusion, delay
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:1b8ff4af-86fe-47ff-8e7e-c9a20050c1ce@astrology
+UID:FullMoon—Taurus-20271031@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20271031
-DTEND;VALUE=DATE:20271101
 SUMMARY:Full Moon — Taurus
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:3728358d-67a5-4353-901b-2be68c42df82@astrology
+UID:JupiterRetrogradebegins—Leo-20271101@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20271101
-DTEND;VALUE=DATE:20271102
 SUMMARY:Jupiter Retrograde begins — Leo
-DESCRIPTION:Collective: Pause in expansion around creativity, pride, and leadership.\nPersonal: Trines Sag Sun/Ascendant → reflective period on growth.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Pause in expansion around creativity, pride, and leadership.\nPersonal: Trines Sag Sun/Ascendant → reflective period on growth.\nThemes: pause, creativity, pride, leadership
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:e2cd749c-29a3-49b5-998f-d349ab00f917@astrology
+UID:MercuryRetrogradeends—Libra-20271113@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20271113
-DTEND;VALUE=DATE:20271114
 SUMMARY:Mercury Retrograde ends — Libra
-DESCRIPTION:Collective: Clarity returns in relationships, fairness.\nPersonal: Relief for Libra Moon.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Clarity returns in relationships, fairness.\nPersonal: Relief for Libra Moon.\nThemes: relationships, clarity, balance, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:7580f33d-abf7-48cc-87c0-a383769b85f9@astrology
+UID:NewMoon—Sagittarius-20271115@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20271115
-DTEND;VALUE=DATE:20271116
 SUMMARY:New Moon — Sagittarius
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:3ac04702-1afd-47a0-92a2-ba23b6b468fe@astrology
+UID:MercuryRetrogradeends—Scorpio-20271129@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20271129
-DTEND;VALUE=DATE:20271130
 SUMMARY:Mercury Retrograde ends — Scorpio
-DESCRIPTION:Collective: Resolution comes slowly in intimacy, shared matters.\nPersonal: Relief in personal trust/finance themes.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Resolution comes slowly in intimacy, shared matters.\nPersonal: Relief in personal trust/finance themes.\nThemes: resolution, clarity, intimacy, trust
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:d936f733-8b20-4ada-86f7-60f42303471c@astrology
+UID:FullMoon—Gemini-20271130@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20271130
-DTEND;VALUE=DATE:20271201
 SUMMARY:Full Moon — Gemini
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:a456a47e-b44f-46f1-8b88-24ae5d4c77a5@astrology
+UID:JupiterDirect—Leo-20271202@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20271202
-DTEND;VALUE=DATE:20271203
 SUMMARY:Jupiter Direct — Leo
-DESCRIPTION:Collective: Growth resumes in creativity, pride, and leadership.\nPersonal: Trines Sag Sun/Ascendant → energy and optimism return.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Growth resumes in creativity, pride, and leadership.\nPersonal: Trines Sag Sun/Ascendant → energy and optimism return.\nThemes: growth, creativity, optimism, leadership
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:a6fb9d6e-8147-46f0-8db2-ec0205c2fd73@astrology
+UID:⭐SolarReturn—Sagittarius-20271209@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20271209
-DTEND;VALUE=DATE:20271210
 SUMMARY:⭐ Solar Return — Sagittarius
-DESCRIPTION:Highlight: Personal (⭐) — this directly hits your chart\nCollective: Not collective.\nPersonal: Annual reset — visibility, expression, growth.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Not collective.\nPersonal: Annual reset — visibility, expression, growth.\nThemes: identity, renewal, self-expression, purpose
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:be0edc2f-75f2-4ec8-a23f-e9afc0b58ff4@astrology
+UID:NewMoon—Capricorn-20271214@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20271214
-DTEND;VALUE=DATE:20271215
 SUMMARY:New Moon — Capricorn
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:5e9a9aa3-0d58-4813-a930-f1a74dc6d686@astrology
+UID:PlutoDirect—Aquarius-20271218@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20271218
-DTEND;VALUE=DATE:20271219
 SUMMARY:Pluto Direct — Aquarius
-DESCRIPTION:Collective: Collective power struggles in technology, systems, community.\nPersonal: Opposes Sag Ascendant → pressure to transform identity.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective power struggles in technology, systems, community.\nPersonal: Opposes Sag Ascendant → pressure to transform identity.\nThemes: power, transformation, technology, rebirth
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:465d1fe4-5024-4ae7-a33f-9e448c0b1a99@astrology
+UID:FullMoon—Cancer-20271229@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20271229
-DTEND;VALUE=DATE:20271230
 SUMMARY:Full Moon — Cancer
-DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Collective emotional peak/reset; themes tied to this sign come into focus.\nPersonal: Check how this lunation aspects your Sag Sun and Libra Moon for personal emphasis.\nThemes: emotions, cycles, culmination, reset
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250916T010821Z
-UID:97a407ff-4088-4d49-8cd7-39d53bfbe40e@astrology
+UID:UranusDirect—Gemini-20280105@astro
+DTSTAMP:20250916T012958Z
 DTSTART;VALUE=DATE:20280105
-DTEND;VALUE=DATE:20280106
 SUMMARY:Uranus Direct — Gemini
-DESCRIPTION:Collective: Forward progress in communication, networks, and technology resumes.\nPersonal: Opposition to Sag stellium → breakthroughs in clarity and self-expression.
-TRANSP:TRANSPARENT
+DESCRIPTION:Collective: Forward progress in communication, networks, and technology resumes.\nPersonal: Opposition to Sag stellium → breakthroughs in clarity and self-expression.\nThemes: communication, clarity, innovation, breakthroughs
 END:VEVENT
 END:VCALENDAR
